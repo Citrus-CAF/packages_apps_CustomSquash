@@ -13,7 +13,7 @@
      See the License for the specific language governing permissions and
      limitations under the License.
 -->
-<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Custom Squash menus -->
     <string name="custom_squash_title">Personalizzazioni</string>
@@ -39,18 +39,18 @@
     <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo quando viene collegato o scollegato l'alimentazione</string>
 
     <!-- Expanded desktop -->
-    <string name="expanded_desktop_category">Expanded </string>
-    <string name="expanded_hide_nothing">Hide nothing</string>
-    <string name="expanded_hide_status">Hide status bar</string>
-    <string name="expanded_hide_navigation">Hide navigation bar</string>
-    <string name="expanded_hide_both">Hide both</string>
+    <string name="expanded_desktop_category">Desktop esteso</string>
+    <string name="expanded_hide_nothing">Non nascondere nulla</string>
+    <string name="expanded_hide_status">Nascondi barra di stato</string>
+    <string name="expanded_hide_navigation">Nascondi barra di navigazione</string>
+    <string name="expanded_hide_both">Nascondi entrambi</string>
     <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set "Enabled for all" to the off position</string>
     <string name="expanded_desktop_state">Expanded state</string>
-    <string name="expanded_enabled_for_all">Enabled for all</string>
+    <string name="expanded_enabled_for_all">Abilitato per tutti</string>
     <string name="expanded_user_configurable">User configurable</string>
-    <string name="expanded_desktop_style">Expanded desktop style</string>
-    <string name="expanded_desktop_style_description">Choose a default expanded desktop style</string>
-    <string name="expanded_desktop_title">Expanded desktop options</string>
+    <string name="expanded_desktop_style">Stile Desktop esteso</string>
+    <string name="expanded_desktop_style_description">Choose a default expanded desktop styleImposta di defaut il Desktop esteso</string>
+    <string name="expanded_desktop_title">Opzioni Desktop esteso</string>
 
     <!-- double tap to sleep - statusbar -->
     <string name="double_tap_to_sleep_title">Doppio tocco per spegnere lo schermo</string>
@@ -96,6 +96,7 @@
     <string name="color_default">Predefinito</string>
 
     <!-- Navigation Bar -->
+    <string name="navigation_category">Navigazione</string>
     <string name="navbar_interface_title">Interfaccia</string>
     <string name="navbar_size">Dimensioni Barra</string>
     <string name="navbar_mode">Modalità navigazione</string>
@@ -137,134 +138,130 @@
     <string name="fling_interface">Fling</string>
     <string name="fling_enable_title">Attiva Fling</string>
     <string name="fling_back_home_policy">Indietro e Home devono essere impostati in ogni momento. Per modificare l\'assegnazione di indietro o home, imposta prima l\'assegnazione desiderata</string>
-  <string name="fling_split_bar_policy">Quando è assegnata solamente un\'azione a destra o a sinistra, l\'azione viene applicata a tutta la barra</string>
-  <string name="fling_def_summary">Nessuna azione impostata</string>
-  <string name="fling_swipe_actions">Gesto di scorrimento</string>
-  <string name="fling_tap_actions">Gesto al tocco</string>
-  <string name="fling_short_swipe_right">Scorrimento corto verso destra</string>
-  <string name="fling_short_swipe_left">Scorrimento corto verso sinistra</string>
-  <string name="fling_long_swipe_right">Scorrimento lungo verso destra</string>
-  <string name="fling_long_swipe_left">Scorrimento lungo verso sinistra</string>
-  <string name="fling_right_up_swipe">Scorrimento verso l\'alto a destra</string>
-  <string name="fling_left_up_swipe">Scorrimento verso l\'alto a sinistra</string>
-  <string name="fling_single_tap">Singolo tocco a destra</string>
-  <string name="fling_double_tap">Doppio tocco a destra</string>
-  <string name="fling_long_press">Pressione prolungata a destra</string>
-  <string name="fling_single_left_tap">Singolo tocco a sinistra</string>
-  <string name="fling_double_left_tap">Doppio tocco a sinistra</string>
-  <string name="fling_long_left_press">Pressione prolungata a sinistra</string>
-  <string name="long_swipe_portrait_title">Verticale</string>
-  <string name="long_swipe_landscape_title">Orizzontale</string>
-  <string name="portrait_right_swipe_title">Scorrimento verticale destro</string>
-  <string name="portrait_left_swipe_title">Scorrimento verticale sinistro</string>
-  <string name="landscape_right_swipe_title">Scorrimento orizzontale destro</string>
-  <string name="landscape_left_swipe_title">Scorrimento orizzontale sinistro</string>
-  <string name="vertical_up_swipe_title">Scorrimento verticale in alto</string>
-  <string name="vertical_down_swipe_title">Scorrimento verticale verso in basso</string>
-  <string name="up_swipe_title">Scorrimento in alto</string>
-  <string name="down_swipe_title">Scorrimento in basso</string>
-  <string name="long_swipe_reset">Ripristina</string>
-  <string name="fling_advanced">Avanzate</string>
-  <string name="fling_long_swipe_title">Soglia di scorrimento</string>
-  <string name="fling_long_swipe_summary">Metti a punto la soglia dello scorrimento lungo basata sull\'altezza o la larghezza del Fling</string>
-  <string name="fling_trails_enable_title">Attiva traccia gesti</string>
-  <string name="fling_trails_enable_summary">Mostra una traccia durante lo scorrimento dei gesti</string>
-  <string name="fling_trails_color_title">Colore traccia</string>
-  <string name="fling_trails_width_title">Larghezza striscia</string>
-  <string name="fling_appearance">Aspetto</string>
-  <string name="fling_show_logo_title">Mostra logo Fling</string>
-  <string name="fling_animate_logo_title">Logo animato</string>
-  <string name="fling_animate_logo_summary">Il logo si anima quando viene toccato</string>
-  <string name="fling_logo_color">Colore del logo</string>
-  <string name="fling_logo_custom_logo_pick_title">Icona del logo personalizzata</string>
-  <string name="fling_logo_custom_logo_image_pick_title">Immagine del logo personalizzata</string>
-  <string name="fling_logo_custom_logo_reset_title">Ripristina icona logo</string>
-  <string name="fling_show_ripple_title">Mostra ondulazione</string>
-  <string name="fling_show_ripple_summary">Effetto ondulazione al tocco</string>
-  <string name="fling_ripple_color">Colore ondulazione</string>
-  <string name="fling_longpress_timeout_label_left">Meno ritardo</string>
-  <string name="fling_longpress_timeout_label_right">Più ritardo</string>
-  <string name="fling_longpress_title">Ritardo pressione prolungata</string>
-  <string name="fling_longpress_summary">Aumenta o diminuisce il tempo impiegato per eseguire una pressione prolungata</string>
+    <string name="fling_split_bar_policy">Quando è assegnata solamente un\'azione a destra o a sinistra, l\'azione viene applicata a tutta la barra</string>
+    <string name="fling_def_summary">Nessuna azione impostata</string>
+    <string name="fling_swipe_actions">Gesto di scorrimento</string>
+    <string name="fling_tap_actions">Gesto al tocco</string>
+    <string name="fling_short_swipe_right">Scorrimento corto verso destra</string>
+    <string name="fling_short_swipe_left">Scorrimento corto verso sinistra</string>
+    <string name="fling_long_swipe_right">Scorrimento lungo verso destra</string>
+    <string name="fling_long_swipe_left">Scorrimento lungo verso sinistra</string>
+    <string name="fling_right_up_swipe">Scorrimento verso l\'alto a destra</string>
+    <string name="fling_left_up_swipe">Scorrimento verso l\'alto a sinistra</string>
+    <string name="fling_single_tap">Singolo tocco a destra</string>
+    <string name="fling_double_tap">Doppio tocco a destra</string>
+    <string name="fling_long_press">Pressione prolungata a destra</string>
+    <string name="fling_single_left_tap">Singolo tocco a sinistra</string>
+    <string name="fling_double_left_tap">Doppio tocco a sinistra</string>
+    <string name="fling_long_left_press">Pressione prolungata a sinistra</string>
+    <string name="long_swipe_portrait_title">Verticale</string>
+    <string name="long_swipe_landscape_title">Orizzontale</string>
+    <string name="portrait_right_swipe_title">Scorrimento verticale destro</string>
+    <string name="portrait_left_swipe_title">Scorrimento verticale sinistro</string>
+    <string name="landscape_right_swipe_title">Scorrimento orizzontale destro</string>
+    <string name="landscape_left_swipe_title">Scorrimento orizzontale sinistro</string>
+    <string name="vertical_up_swipe_title">Scorrimento verticale in alto</string>
+    <string name="vertical_down_swipe_title">Scorrimento verticale verso in basso</string>
+    <string name="up_swipe_title">Scorrimento in alto</string>
+    <string name="down_swipe_title">Scorrimento in basso</string>
+    <string name="long_swipe_reset">Ripristina</string>
+    <string name="fling_advanced">Avanzate</string>
+    <string name="fling_long_swipe_title">Soglia di scorrimento</string>
+    <string name="fling_long_swipe_summary">Metti a punto la soglia dello scorrimento lungo basata sull\'altezza o la larghezza del Fling</string>
+    <string name="fling_trails_enable_title">Attiva traccia gesti</string>
+    <string name="fling_trails_enable_summary">Mostra una traccia durante lo scorrimento dei gesti</string>
+    <string name="fling_trails_color_title">Colore traccia</string>
+    <string name="fling_trails_width_title">Larghezza striscia</string>
+    <string name="fling_appearance">Aspetto</string>
+    <string name="fling_show_logo_title">Mostra logo Fling</string>
+    <string name="fling_animate_logo_title">Logo animato</string>
+    <string name="fling_animate_logo_summary">Il logo si anima quando viene toccato</string>
+    <string name="fling_logo_color">Colore del logo</string>
+    <string name="fling_logo_custom_logo_pick_title">Icona del logo personalizzata</string>
+    <string name="fling_logo_custom_logo_image_pick_title">Immagine del logo personalizzata</string>
+    <string name="fling_logo_custom_logo_reset_title">Ripristina icona logo</string>
+    <string name="fling_show_ripple_title">Mostra ondulazione</string>
+    <string name="fling_show_ripple_summary">Effetto ondulazione al tocco</string>
+    <string name="fling_ripple_color">Colore ondulazione</string>
+    <string name="fling_longpress_timeout_label_left">Meno ritardo</string>
+    <string name="fling_longpress_timeout_label_right">Più ritardo</string>
+    <string name="fling_longpress_title">Ritardo pressione prolungata</string>
+    <string name="fling_longpress_summary">Aumenta o diminuisce il tempo impiegato per eseguire una pressione prolungata</string>
 
     <!-- Pulse navigation bar music visualizer -->
     <string name="pulse_help_policy_notice_title">A proposito di Pulse</string>
-  <string name="pulse_help_policy_notice_summary">Pulse è un brillante equalizzatore grafico audio visualizzato sulla barra di navigazione durante la riproduzione musicale. Pulse non funziona con alcune fonti audio durante l\'ascolto sull\'altoparlante del dispositivo</string>
-  <string name="pulse_settings">Pulse</string>
-  <string name="pulse_settings_summary">Equalizzatore grafico audio barra di navigazione</string>
-  <string name="fling_show_pulse_title">Mostra Pulse</string>
-  <string name="fling_show_pulse_summary">Equalizzatore grafico audio sulla barra di navigazione</string>
-  <string name="pulse_render_mode_title">Modalità esecuzione</string>
-  <string name="pulse_render_mode_fading_bars">Dissolvenza blocchi</string>
-  <string name="pulse_render_mode_solid_lines">Linee continue</string>
-  <string name="fling_pulse_color">Colore Pulse</string>
-  <string name="eos_fling_lavalamp_title">Attiva Lampada di Lava</string>
-  <string name="eos_fling_lavalamp_summary">Pulse mescola e cambia colore come una lampada di lava</string>
-  <string name="pulse_advanced_category">Avanzate</string>
-  <string name="pulse_legacy_mode_advanced_category">Impostazioni della modalità dissolvenza blocchi</string>
-  <string name="pulse_custom_fudge_factor">Livello di buon senso</string>
-  <string name="lavamp_solid_speed_title">Velocità lampada di lava</string>
-  <string name="pulse_solid_units_count">Linee continue solide</string>
-  <string name="pulse_solid_lines_count">Linee continue solide</string>
-  <string name="pulse_solid_units_opacity">Linee continue opache</string>
-  <string name="pulse_solid_dimen_category">Impostazioni della modalità linee continue</string>
-  <string name="fling_lavalamp_color_from">Colore avvio lampada di lava</string>
-  <string name="fling_lavalamp_color_to">Colore finale lampada di lava</string>
+    <string name="pulse_help_policy_notice_summary">Pulse è un brillante equalizzatore grafico audio visualizzato sulla barra di navigazione durante la riproduzione musicale. Pulse non funziona con alcune fonti audio durante l\'ascolto sull\'altoparlante del dispositivo</string>
+    <string name="pulse_settings">Pulse</string>
+    <string name="pulse_settings_summary">Equalizzatore grafico audio barra di navigazione</string>
+    <string name="fling_show_pulse_title">Mostra Pulse</string>
+    <string name="fling_show_pulse_summary">Equalizzatore grafico audio sulla barra di navigazione</string>
+    <string name="pulse_render_mode_title">Modalità esecuzione</string>
+    <string name="pulse_render_mode_fading_bars">Dissolvenza blocchi</string>
+    <string name="pulse_render_mode_solid_lines">Linee continue</string>
+    <string name="fling_pulse_color">Colore Pulse</string>
+    <string name="eos_fling_lavalamp_title">Attiva Lampada di Lava</string>
+    <string name="eos_fling_lavalamp_summary">Pulse mescola e cambia colore come una lampada di lava</string>
+    <string name="pulse_advanced_category">Avanzate</string>
+    <string name="pulse_legacy_mode_advanced_category">Impostazioni della modalità dissolvenza blocchi</string>
+    <string name="pulse_custom_fudge_factor">Livello di buon senso</string>
+    <string name="lavamp_solid_speed_title">Velocità lampada di lava</string>
+    <string name="pulse_solid_dimen_category">Impostazioni della modalità linee continue</string>
 
-     <!-- Pulse config -->
-  <string name="pulse_custom_dimen">Larghezza barra</string>
-  <string name="pulse_custom_div">Spaziatura della barra</string>
-  <string name="pulse_filled_block_size">Dimensione del blocco</string>
-  <string name="pulse_empty_block_size">Spaziatura blocchi</string>
+    <!-- Pulse config -->
+    <string name="pulse_custom_dimen">Larghezza barra</string>
+    <string name="pulse_custom_div">Spaziatura della barra</string>
+    <string name="pulse_filled_block_size">Dimensione del blocco</string>
+    <string name="pulse_empty_block_size">Spaziatura blocchi</string>
 
-  <!-- Navbar height -->
-  <string name="navigation_bar_size_title">Dimensioni Barra</string>
-  <string name="portrait_title">Altezza verticale</string>
-  <string name="land_vert_title">Larghezza orizzontale</string>
-  <string name="land_hor_title">Altezza orizzontale</string>
-  <string name="positive_done">Fatto</string>
+    <!-- Navbar height -->
+    <string name="navigation_bar_size_title">Dimensioni Barra</string>
+    <string name="portrait_title">Altezza verticale</string>
+    <string name="land_vert_title">Larghezza orizzontale</string>
+    <string name="land_hor_title">Altezza orizzontale</string>
+    <string name="positive_done">Fatto</string>
 
-  <!-- SmartBar -->
-  <string name="smartbar_category">SmartBar</string>
-  <string name="smartbar_settings_title">Impostazioni Smartbar</string>
-  <string name="smartbar_editor_title">Attiva o disattiva le modifiche dei pulsanti</string>
-  <string name="smartbar_editor_summary">Tieni premuto e trascina per cambiare la posizione. Tieni premuto a lungo per visualizzare il menù di modifica. La posizione del pulsante potrebbe cambiare durante la visualizzazione del menù.</string>
-  <string name="smartbar_context_menu_position_title">Posizione pulsanti contestuali</string>
-  <string name="smartbar_context_menu_position_summary">Regola la posizione dei pulsanti contestuali, come il pulsante menù e il selettore della tastiera</string>
-  <string name="smartbar_right">Destra</string>
-  <string name="smartbar_left">Sinistra</string>
-  <string name="smartbar_button_animation_title">Animazione al tocco del pulsante</string>
-  <string name="smartbar_button_animation_summary">Imposta lo stile di animazione dei pulsanti principali quando vengono premuti</string>
-  <string name="smartbar_button_animation_ripple">Ondulazione</string>
-  <string name="smartbar_button_animation_spring">Rimbalzo</string>
-  <string name="smartbar_button_animation_pixel">Pixel (tutti i pulsanti)</string>
-  <string name="smartbar_button_animation_pixel_home">Pixel (solo il pulsante Home)</string>
-  <string name="smartbar_button_animation_pixel_home_ripple">Pixel (solo il pulsante Home) e ondulazione</string>
-  <string name="smartbar_factory_reset_title">Ripristina a predefinito</string>
-  <string name="smartbar_factory_reset_confirm">Sei sicuro di voler ripristinare Smart Bar alle impostazioni di fabbrica?</string>
-  <string name="smartbar_ime_action_title">Azioni metodo di inserimento</string>
-  <string name="smartbar_ime_action_summary">Imposta quali pulsanti visualizzare quando la tastiera comparirà sullo schermo</string>
-  <string name="smartbar_ime_action_none">Niente</string>
-  <string name="smartbar_ime_action_arrows">Frecce direzionali</string>
-  <string name="smartbar_ime_action_switcher">Cambia tastiera</string>
-  <string name="smartbar_backup_current_config_title">Salva profilo</string>
-  <string name="smartbar_restore_config_title">Ripristinare il profilo</string>
-  <string name="smartbar_config_name_edit_dialog_title">Nome del profilo SmartBar</string>
-  <string name="smartbar_config_name_edit_dialog_message">Immettere un nome oppure lasciare vuoto</string>
-  <string name="smartbar_config_dialog_title">Profili SmartBar</string>
-  <string name="smartbar_config_backup_success_toast">Profilo SmartBar salvato correttamente</string>
-  <string name="smartbar_config_restore_success_toast">Profilo SmartBar ripristinato correttamente</string>
-  <string name="smartbar_config_backup_error_toast">Errore salvataggio del profilo Smartbar</string>
-  <string name="smartbar_config_restore_error_toast">Errore ripristino del profilo Smartbar</string>
-  <string name="navbar_buttons_alpha_title">Trasparenza pulsante</string>
+    <!-- SmartBar -->
+    <string name="smartbar_category">SmartBar</string>
+    <string name="smartbar_settings_title">Impostazioni Smartbar</string>
+    <string name="smartbar_editor_title">Attiva o disattiva le modifiche dei pulsanti</string>
+    <string name="smartbar_editor_summary">Tieni premuto e trascina per cambiare la posizione. Tieni premuto a lungo per visualizzare il menù di modifica. La posizione del pulsante potrebbe cambiare durante la visualizzazione del menù.</string>
+    <string name="smartbar_context_menu_position_title">Posizione pulsanti contestuali</string>
+    <string name="smartbar_context_menu_position_summary">Regola la posizione dei pulsanti contestuali, come il pulsante menù e il selettore della tastiera</string>
+    <string name="smartbar_right">Destra</string>
+    <string name="smartbar_left">Sinistra</string>
+    <string name="smartbar_button_animation_title">Animazione al tocco del pulsante</string>
+    <string name="smartbar_button_animation_summary">Imposta lo stile di animazione dei pulsanti principali quando vengono premuti</string>
+    <string name="smartbar_button_animation_ripple">Ondulazione</string>
+    <string name="smartbar_button_animation_spring">Rimbalzo</string>
+    <string name="smartbar_button_animation_flip">Ruota</string>
+    <string name="smartbar_factory_reset_title">Ripristina a predefinito</string>
+    <string name="smartbar_factory_reset_confirm">Sei sicuro di voler ripristinare Smart Bar alle impostazioni di fabbrica?</string>
+    <string name="smartbar_ime_action_title">Azioni metodo di inserimento</string>
+    <string name="smartbar_ime_action_summary">Imposta quali pulsanti visualizzare quando la tastiera comparirà sullo schermo</string>
+    <string name="smartbar_ime_action_none">Niente</string>
+    <string name="smartbar_ime_action_arrows">Frecce direzionali</string>
+    <string name="smartbar_ime_action_switcher">Cambia tastiera</string>
+    <string name="smartbar_backup_current_config_title">Salva profilo</string>
+    <string name="smartbar_restore_config_title">Ripristinare il profilo</string>
+    <string name="smartbar_config_name_edit_dialog_title">Nome del profilo SmartBar</string>
+    <string name="smartbar_config_name_edit_dialog_message">Immettere un nome oppure lasciare vuoto</string>
+    <string name="smartbar_config_dialog_title">Profili SmartBar</string>
+    <string name="smartbar_config_backup_success_toast">Profilo SmartBar salvato correttamente</string>
+    <string name="smartbar_config_restore_success_toast">Profilo SmartBar ripristinato correttamente</string>
+    <string name="smartbar_config_backup_error_toast">Errore salvataggio del profilo Smartbar</string>
+    <string name="smartbar_config_restore_error_toast">Errore ripristino del profilo Smartbar</string>
+    <string name="navbar_buttons_alpha_title">Trasparenza pulsante</string>
 
     <!-- Quick settings tiles columns and rows config -->
-  <string name="qs_layout_category">Disposizione tile impostazioni rapide</string>
-  <string name="qs_rows_portrait_title">Righe (verticale)</string>
-  <string name="qs_rows_landscape_title">Righe (orizzontale)</string>
-  <string name="qs_columns_title">Colonne</string>
-  <string name="qqs_scroll_title">Scorrimento tile piccoli</string>
-  <string name="qqs_scroll_summary">Permette lo scorrimento dei tile piccoli delle impostazioni rapide</string>
+    <string name="quicksettings_category">Impostazioni rapide</string>
+    <string name="qs_layout_category">Layout tiles Impostazioni rapide</string>
+    <string name="qs_rows_portrait_title">Righe (verticale)</string>
+    <string name="qs_rows_landscape_title">Righe (orizzontale)</string>
+    <string name="qs_columns_title">Colonne</string>
+    <string name="qs_tile_title_visibility_title">Titoli tiles Impostazioni rapide</string>
+    <string name="qs_tile_title_visibility_summary_on">I titoli dei tiles sono adesso visibili</string>
+    <string name="qs_tile_title_visibility_summary_off">I titoli dei tiles sono adesso invisibili</string>
+    <string name="qs_small_tiles_title">Tile piccoli Impostazion rapide</string>
     
     <!-- General strings -->
     <string name="cancel">Cancella</string>
@@ -287,6 +284,7 @@
     <string name="keyguard_torch_summary">Tieni premuto il pulsante alimentazione mentre lo schermo è spento per accendere la torcia</string>
 
     <!-- clock date options -->
+    <string name="clock_title_enable">Allineamento</string>
     <string name="status_bar_show_clock_title">Mostra l\'orologio &amp; la data</string>
     <string name="status_bar_clock_seconds_title">Mostra i secondi</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
@@ -312,15 +310,12 @@
     <!-- qs brightness slider -->
     <string name="qs_brightness_slider_title">Cursore luminosità</string>
     <string name="qs_brightness_slider_summary">Mostra un cursore di luminosità nel pannello delle impostazioni rapide</string>
-     
     <!-- Power notification controls -->
     <string name="power_notification_controls_title">Comandi di accensione notifica</string>
     <string name="power_notification_controls_summary">Seleziona il livello d\'importanza per le tue notifiche</string>
-     
     <!-- Preference to show/hide embedded battery percentage -->
     <string name="show_battery_percentage">Mostra percentuale batteria</string>
     <string name="show_battery_percentage_summary">Mostra la percentuale della batteria quando il dispositivo non è in carics</string>
-     
     <!-- statusbar icon blacklist -->
     <string name="status_bar_icon_blacklist_title">Icone della barra di stato</string>
     <string name="status_bar_icon_blacklist_summary">Configura quali icone sono mostrate nella barra di stato</string>
@@ -435,7 +430,7 @@
 
     <!-- Quick Settings on lockscreen -->
     <string name="lockscreen_qs_disabled_title">Disabilita impostazioni rapide</string>
-  <string name="lockscreen_qs_disabled_summary">Disabilita le impostazioni rapide sulla scheramata di blocco</string>
+    <string name="lockscreen_qs_disabled_summary">Disabilita le impostazioni rapide sulla scheramata di blocco</string>
 
     <!-- Custom summary text -->
     <string name="custom_settings_summary_title">CustomSquash testo del sommario</string>
@@ -519,12 +514,12 @@
 
     <!-- Advanced data tile -->
     <string name="qs_advanced_tile_cat">Tile avanzati</string>
-    <string name="qs_advanced_data_title">Dati mobile attivo al tocco</string>
+    <string name="qs_advanced_data_title">Dati mobile attivo al tocco</string>      
     <string name="qs_advanced_data_summary">Fa in modo che con un tocco verrà attivato o disattivato i dati mobile invece di entrare nelle impostazioni</string>
 
     <!-- Advanced BT tile -->
-   <string name="qs_bt_easy_toggle_title">Bluetooth attivo al tocco</string>
-   <string name="qs_bt_easy_toggle_summary">Fa in modo che con un tocco verrà attivato o disattivato il Bluetooth invece di entrare nelle impostazioni</string>
+    <string name="qs_bt_easy_toggle_title">Bluetooth attivo al tocco</string>     
+    <string name="qs_bt_easy_toggle_summary">Fa in modo che con un tocco verrà attivato o disattivato il Bluetooth invece di entrare nelle impostazioni</string>
  
     <!-- Advanced WIFI tile -->
     <string name="qs_advanced_wifi_title">Wi-Fi attivo al tocco</string>
@@ -533,16 +528,18 @@
     <!-- QS headers -->
     <string name="qs_header_category">Opzioni intestazione impostaioni rapide</string>
     <string name="status_bar_custom_header_title">Immagine intestazione personalizzata</string>
-    <string name="status_bar_custom_header_summary">Abilita un\'immagine nell\'intestazione del pannello delle notifiche</string>
+    <string name="status_bar_custom_header_summary">Abilita un\'immagine nell\'intestazione del pannello delle notifiche</string>     
     <string name="daylight_header_pack_title">Pacchetto immagini intestazione</string>
     <string name="status_bar_custom_header_shadow_title">Ombra immagine intestazione</string>
     <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
-    <string name="static_header_provider_title">Statico</string>
+    <string name="static_header_provider" translatable="false">static</string>
+    <string name="daylight_header_provider" translatable="false">daylight</string>
+    <string name="static_header_provider_title">Statico</string>      
     <string name="daylight_header_provider_title">Dinamico</string>
     <string name="custom_header_provider_title">Scelta intestazione</string>
     <string name="custom_header_browse_title">Sfoglia intestazioni installate</string>
     <string name="custom_header_browse_summary">Premi a lungo su qualsiasi immagine da utilizzare per la modalità statica</string>
-
+         
     <!--  Lockscreen battery info indicator  -->
     <string name="lockscreen_battery_info_title">Info batteria schermata di blocco</string>
     <string name="lockscreen_battery_info_summary">Mostra il voltaggio e la temperatura della batteria sulla schermata di blocco durante la ricarica</string>
@@ -562,7 +559,7 @@
     <string name="battery_bar_style_center_mirrored">Centrata e specchiata</string>
     <string name="battery_bar_style_reversed">Invertita</string>
 
-<!-- Citrus Logo --> 
+    <!-- Citrus Logo --> 
     <string name="status_bar_citrus_logo_frags_title">Citrus-CAF logo</string>
     <string name="status_bar_citrus_logo_title">Abilita il Logo</string>
     <string name="status_bar_citrus_logo_summary">Attiva per mostrare il logo Citrus-CAF nella barra di stato</string>

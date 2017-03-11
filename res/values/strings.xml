@@ -16,30 +16,30 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Custom Squash menus -->
-    <string name="custom_squash_title">Custom Squash!</string>
+    <string name="custom_squash_title">Personalizzazioni</string>
     <string name="keywords_citrus">Citrus-CAF</string>
 
     <!-- Tabs -->
-    <string name="ui_title">Ui</string>
-    <string name="buttons_title">Buttons</string>
-    <string name="statusbar_title">StatusBar</string>
-    <string name="misc_title">Misc</string>
-    <string name="lockscreen_title">Lock Screen</string>
+    <string name="ui_title">UI</string>
+    <string name="buttons_title">Pulsanti</string>
+    <string name="statusbar_title">Barra di stato</string>
+    <string name="misc_title">Varie</string>
+    <string name="lockscreen_title">Schermata di blocco</string>
 
     <!-- Volume rocker wake -->
-    <string name="volume_rocker_wake_title">Volume rocker wake</string>
-    <string name="volume_rocker_wake_summary">Pressing the volume keys will wake your device</string>
+    <string name="volume_rocker_wake_title">Risveglio tasti volume</string>
+    <string name="volume_rocker_wake_summary">Premendo i tasti del volume farà risvegliare il dispositivo</string>
 
     <!-- Volume rocker music control -->
-    <string name="volume_rocker_music_controls_title">Playback control</string>
-    <string name="volume_rocker_music_controls_summary">When the screen is off, long-pressing the volume keys will seek music tracks</string>
+    <string name="volume_rocker_music_controls_title">Controllo della riproduzione</string>
+    <string name="volume_rocker_music_controls_summary">Quando lo schermo è spento, la lunga pressione dei tasti del volume cambieranno le tracce musicali</string>
 
     <!-- Wake on Plug -->
-    <string name="wake_when_plugged_or_unplugged_title">Wake on plug</string>
-    <string name="wake_when_plugged_or_unplugged_summary">Turn the screen on when connecting or disconnecting a power source</string>
+    <string name="wake_when_plugged_or_unplugged_title">Sveglia al collegamento</string>
+    <string name="wake_when_plugged_or_unplugged_summary">Accendi lo schermo quando viene collegato o scollegato l'alimentazione</string>
 
     <!-- Expanded desktop -->
-    <string name="expanded_desktop_category">Expanded Desktop</string>
+    <string name="expanded_desktop_category">Expanded </string>
     <string name="expanded_hide_nothing">Hide nothing</string>
     <string name="expanded_hide_status">Hide status bar</string>
     <string name="expanded_hide_navigation">Hide navigation bar</string>
@@ -53,75 +53,74 @@
     <string name="expanded_desktop_title">Expanded desktop options</string>
 
     <!-- double tap to sleep - statusbar -->
-    <string name="double_tap_to_sleep_title">Double-tap to sleep</string>
-    <string name="double_tap_to_sleep_summary">Double tap on the status bar to put the device to sleep</string>
+    <string name="double_tap_to_sleep_title">Doppio tocco per spegnere lo schermo</string>
+    <string name="double_tap_to_sleep_summary">Doppio tocco sulla barra di stato per spegnere lo schermo</string>
 
     <!-- statusbar brightness control -->
-    <string name="status_bar_toggle_brightness">Brightness control</string>
-    <string name="status_bar_toggle_brightness_summary">Adjust brightness by sliding across the status bar</string>
+    <string name="status_bar_toggle_brightness">Controllo della luminosità</string>
+    <string name="status_bar_toggle_brightness_summary">Regola la luminosità facendo scorrere il dito sulla barra di stato</string>
 
     <!-- Volume key controls media stream -->
-    <string name="volume_keys_control_media_stream_title">Volume keys control media volume</string>
-    <string name="volume_keys_control_media_stream_summary">Force volume keys to control media stream</string>
+    <string name="volume_keys_control_media_stream_title">Controllo multimediale tasti volume</string>
+    <string name="volume_keys_control_media_stream_summary">Forza i tasti del volume per controllare il flusso multimediale</string>
 
     <!-- Network traffic -->
-    <string name="network_traffic_title">Network traffic</string>
-    <string name="show_network_traffic_state">Status bar traffic monitor</string>
-    <string name="show_network_traffic_unit">Display unit</string>
-    <string name="show_network_traffic_frequency">Update interval</string>
-    <string name="show_network_traffic_disable">Disabled</string>
-    <string name="show_network_traffic_up">Outgoing</string>
-    <string name="show_network_traffic_down">Incoming</string>
-    <string name="show_network_traffic_all">Outgoing and incoming</string>
-    <string name="show_network_traffic_bit">Bits per second</string>
-    <string name="show_network_traffic_byte">Bytes per second</string>
+    <string name="network_traffic_title">Traffico di rete</string>
+    <string name="show_network_traffic_state">Indicatore traffico di rete nella barra di stato</string>
+    <string name="show_network_traffic_unit">Unità di visualizzazione</string>
+    <string name="show_network_traffic_frequency">Intervallo aggiornamento</string>
+    <string name="show_network_traffic_disable">Disabilitato</string>
+    <string name="show_network_traffic_up">In uscita</string>
+    <string name="show_network_traffic_down">In entrata</string>
+    <string name="show_network_traffic_all">In uscita e in entrata</string>
+    <string name="show_network_traffic_bit">Bit al secondo</string>
+    <string name="show_network_traffic_byte">Byte al secondo</string>
     <string name="show_network_traffic_500">500 ms</string>
     <string name="show_network_traffic_1000">1000 ms</string>
     <string name="show_network_traffic_1500">1500 ms</string>
     <string name="show_network_traffic_2000">2000 ms</string>
-    <string name="network_traffic_autohide">Auto hide</string>
-    <string name="network_traffic_autohide_summary">Hide the traffic monitor when there is no activity</string>
-    <string name="network_traffic_autohide_threshold">Inactivity threshold</string>
-    <string name="network_traffic_hidearrow">Hide arrows</string>
-    <string name="network_traffic_hidearrow_summary">Hide the arrows in the traffic indicators</string>
+    <string name="network_traffic_autohide">Nascondi automaticamente</string>
+    <string name="network_traffic_autohide_summary">Nascondi il traffico di rete quando non c\'è attività</string>
+    <string name="network_traffic_autohide_threshold">Soglia di inattività</string>
+    <string name="network_traffic_hidearrow">Nascondi frecce</string>
+    <string name="network_traffic_hidearrow_summary">Nascondi le frecce nell\'indicatore di traffico</string>
 
     <!-- Color Picker -->
-    <string name="dialog_color_picker">Color Picker</string>
-    <string name="press_color_to_apply">Press on color below to apply</string>
+    <string name="dialog_color_picker">Selettore del colore</string>
+    <string name="press_color_to_apply">Premere sul colore qui sotto per applicarlo</string>
     <string name="arrow_right">→</string>
     <string name="arrow_down">↓</string>
-    <string name="hex">Hex:</string>
+    <string name="hex">Esadecimale:</string>
     <string name="hex_hint">#ff000000</string>
-    <string name="set">Set</string>
-    <string name="color_default">Default</string>
+    <string name="set">Imposta</string>
+    <string name="color_default">Predefinito</string>
 
     <!-- Navigation Bar -->
-    <string name="navigation_category">Navigation</string>
-    <string name="navbar_interface_title">Interface</string>
-    <string name="navbar_size">Bar size</string>
-    <string name="navbar_mode">Navigation mode</string>
-    <string name="navbar_visibility">Enable navigation bar</string>
-    <string name="navigationbar_settings_title">Navigation bar</string>
-    <string name="navigationbar_settings_summary">Customize navigation style and behavior</string>
-    <string name="navbar_general_title">Advanced</string>
-    <string name="navigation_bar_left_title">Left-handed mode</string>
-    <string name="navigation_bar_left_summary">Place the navigation bar on the left side of the screen in landscape mode</string>
+    <string name="navbar_interface_title">Interfaccia</string>
+    <string name="navbar_size">Dimensioni Barra</string>
+    <string name="navbar_mode">Modalità navigazione</string>
+    <string name="navbar_visibility">Abilita barra di navigazione</string>
+    <string name="navigationbar_settings_title">Barra di navigazione</string>
+    <string name="navigationbar_settings_summary">Personalizza stile e comportamento navigazione</string>
+    <string name="navbar_general_title">Avanzate</string>
+    <string name="navigation_bar_left_title">Modalità mancino</string>
+    <string name="navigation_bar_left_summary">Posiziona la barra di navigazione sul lato sinistro dello schermo in modalità orizzontale</string>
     <string name="info_pref_note_title">Note</string>
     <string name="smartbar_interface">SmartBar</string>
-    <string name="icon_pack_picker_dialog_title">Icon packs</string>
-    <string name="invalid_icon_from_uri">Unable to load image from content provider</string>
-    <string name="picker_activities">Activities</string>
-    <string name="select_custom_app_title">Select custom app</string>
-    <string name="select_custom_activity_title">Select custom activity</string>
-    <string name="profile_applist_title">Applications</string>
-    <string name="default_string">Default</string>
-    <string name="reset">Reset</string>
+    <string name="icon_pack_picker_dialog_title">Pacchetti icone</string>
+    <string name="invalid_icon_from_uri">Impossibile caricare l\'immagine dal provider dei contenuti</string>
+    <string name="picker_activities">Attività</string>
+    <string name="select_custom_app_title">Seleziona un\'app personalizzata</string>
+    <string name="select_custom_activity_title">Seleziona un\'attività personalizzata</string>
+    <string name="profile_applist_title">Applicazioni</string>
+    <string name="default_string">Predefinito</string>
+    <string name="reset">Ripristina</string>
 
     <!-- Actions dialog and default task values set in ActionPreference xml-->
-    <string name="choose_action_title">Choose action</string>
-    <string name="action_entry_default_action">Default settings</string>
-    <string name="action_entry_select_app">Select application</string>
-    <string name="action_entry_custom_action">Select custom action</string>
+    <string name="choose_action_title">Scegli azione</string>
+    <string name="action_entry_default_action">Impostazioni predefinite</string>
+    <string name="action_entry_select_app">Seleziona un\'applicazione</string>
+    <string name="action_entry_custom_action">Seleziona un\'azione</string>
 
     <string name="action_value_default_action" translatable="false">default</string>
     <string name="action_value_select_app" translatable="false">app</string>
@@ -134,230 +133,236 @@
     <string name="action_value_menu" translatable="false">task_menu</string>
 
     <!-- Fling -->
-    <string name="fling_settings">Fling settings</string>
+    <string name="fling_settings">Impostazioni Fling</string>
     <string name="fling_interface">Fling</string>
-    <string name="fling_enable_title">Enable Fling</string>
-    <string name="fling_back_home_policy">Back and Home are required to be set at all times. To change a Back or Home assignment, set the desired assignment first</string>
-    <string name="fling_split_bar_policy">When only a right or left action is assigned, the action applies to the full bar</string>
-    <string name="fling_def_summary">No action set</string>
-    <string name="fling_swipe_actions">Swipe gestures</string>
-    <string name="fling_tap_actions">Tap gestures</string>
-    <string name="fling_short_swipe_right">Right short swipe</string>
-    <string name="fling_short_swipe_left">Left short swipe</string>
-    <string name="fling_long_swipe_right">Right long swipe</string>
-    <string name="fling_long_swipe_left">Left long swipe</string>
-    <string name="fling_right_up_swipe">Right side swipe up</string>
-    <string name="fling_left_up_swipe">Left side swipe up</string>
-    <string name="fling_single_tap">Single tap right</string>
-    <string name="fling_double_tap">Double tap right</string>
-    <string name="fling_long_press">Long press right</string>
-    <string name="fling_single_left_tap">Single tap left</string>
-    <string name="fling_double_left_tap">Double tap left</string>
-    <string name="fling_long_left_press">Long press left</string>
-    <string name="long_swipe_portrait_title">Portrait</string>
-    <string name="long_swipe_landscape_title">Landscape</string>
-    <string name="portrait_right_swipe_title">Portrait right swipe</string>
-    <string name="portrait_left_swipe_title">Portrait left swipe</string>
-    <string name="landscape_right_swipe_title">Landscape right swipe</string>
-    <string name="landscape_left_swipe_title">Landscape left swipe</string>
-    <string name="vertical_up_swipe_title">Vertical up swipe</string>
-    <string name="vertical_down_swipe_title">Vertical down swipe</string>
-    <string name="up_swipe_title">Up swipe</string>
-    <string name="down_swipe_title">Down swipe</string>
-    <string name="long_swipe_reset">Reset</string>
-    <string name="fling_advanced">Advanced</string>
-    <string name="fling_long_swipe_title">Long swipe thresholds</string>
-    <string name="fling_long_swipe_summary">Fine tune long swipe thresholds based on a percentage of Fling interface width or height</string>
-    <string name="fling_trails_enable_title">Enable gesture trails</string>
-    <string name="fling_trails_enable_summary">Show a trail on swipe gestures</string>
-    <string name="fling_trails_color_title">Trail color</string>
-    <string name="fling_trails_width_title">Trail width</string>
-    <string name="fling_appearance">Appearance</string>
-    <string name="fling_show_logo_title">Show Fling logo</string>
-    <string name="fling_animate_logo_title">Animate logo</string>
-    <string name="fling_animate_logo_summary">Logo animates on touch events</string>
-    <string name="fling_logo_color">Logo color</string>
-    <string name="fling_logo_custom_logo_pick_title">Custom logo icon</string>
-    <string name="fling_logo_custom_logo_image_pick_title">Custom logo image</string>
-    <string name="fling_logo_custom_logo_reset_title">Reset logo icon</string>
-    <string name="fling_show_ripple_title">Show ripple</string>
-    <string name="fling_show_ripple_summary">Ripple effect on touch events</string>
-    <string name="fling_ripple_color">Ripple color</string>
-    <string name="fling_longpress_timeout_label_left">Less delay</string>
-    <string name="fling_longpress_timeout_label_right">More delay</string>
-    <string name="fling_longpress_title">Long press delay</string>
-    <string name="fling_longpress_summary">Increase or decrease the time it takes to execute a long press</string>
+    <string name="fling_enable_title">Attiva Fling</string>
+    <string name="fling_back_home_policy">Indietro e Home devono essere impostati in ogni momento. Per modificare l\'assegnazione di indietro o home, imposta prima l\'assegnazione desiderata</string>
+  <string name="fling_split_bar_policy">Quando è assegnata solamente un\'azione a destra o a sinistra, l\'azione viene applicata a tutta la barra</string>
+  <string name="fling_def_summary">Nessuna azione impostata</string>
+  <string name="fling_swipe_actions">Gesto di scorrimento</string>
+  <string name="fling_tap_actions">Gesto al tocco</string>
+  <string name="fling_short_swipe_right">Scorrimento corto verso destra</string>
+  <string name="fling_short_swipe_left">Scorrimento corto verso sinistra</string>
+  <string name="fling_long_swipe_right">Scorrimento lungo verso destra</string>
+  <string name="fling_long_swipe_left">Scorrimento lungo verso sinistra</string>
+  <string name="fling_right_up_swipe">Scorrimento verso l\'alto a destra</string>
+  <string name="fling_left_up_swipe">Scorrimento verso l\'alto a sinistra</string>
+  <string name="fling_single_tap">Singolo tocco a destra</string>
+  <string name="fling_double_tap">Doppio tocco a destra</string>
+  <string name="fling_long_press">Pressione prolungata a destra</string>
+  <string name="fling_single_left_tap">Singolo tocco a sinistra</string>
+  <string name="fling_double_left_tap">Doppio tocco a sinistra</string>
+  <string name="fling_long_left_press">Pressione prolungata a sinistra</string>
+  <string name="long_swipe_portrait_title">Verticale</string>
+  <string name="long_swipe_landscape_title">Orizzontale</string>
+  <string name="portrait_right_swipe_title">Scorrimento verticale destro</string>
+  <string name="portrait_left_swipe_title">Scorrimento verticale sinistro</string>
+  <string name="landscape_right_swipe_title">Scorrimento orizzontale destro</string>
+  <string name="landscape_left_swipe_title">Scorrimento orizzontale sinistro</string>
+  <string name="vertical_up_swipe_title">Scorrimento verticale in alto</string>
+  <string name="vertical_down_swipe_title">Scorrimento verticale verso in basso</string>
+  <string name="up_swipe_title">Scorrimento in alto</string>
+  <string name="down_swipe_title">Scorrimento in basso</string>
+  <string name="long_swipe_reset">Ripristina</string>
+  <string name="fling_advanced">Avanzate</string>
+  <string name="fling_long_swipe_title">Soglia di scorrimento</string>
+  <string name="fling_long_swipe_summary">Metti a punto la soglia dello scorrimento lungo basata sull\'altezza o la larghezza del Fling</string>
+  <string name="fling_trails_enable_title">Attiva traccia gesti</string>
+  <string name="fling_trails_enable_summary">Mostra una traccia durante lo scorrimento dei gesti</string>
+  <string name="fling_trails_color_title">Colore traccia</string>
+  <string name="fling_trails_width_title">Larghezza striscia</string>
+  <string name="fling_appearance">Aspetto</string>
+  <string name="fling_show_logo_title">Mostra logo Fling</string>
+  <string name="fling_animate_logo_title">Logo animato</string>
+  <string name="fling_animate_logo_summary">Il logo si anima quando viene toccato</string>
+  <string name="fling_logo_color">Colore del logo</string>
+  <string name="fling_logo_custom_logo_pick_title">Icona del logo personalizzata</string>
+  <string name="fling_logo_custom_logo_image_pick_title">Immagine del logo personalizzata</string>
+  <string name="fling_logo_custom_logo_reset_title">Ripristina icona logo</string>
+  <string name="fling_show_ripple_title">Mostra ondulazione</string>
+  <string name="fling_show_ripple_summary">Effetto ondulazione al tocco</string>
+  <string name="fling_ripple_color">Colore ondulazione</string>
+  <string name="fling_longpress_timeout_label_left">Meno ritardo</string>
+  <string name="fling_longpress_timeout_label_right">Più ritardo</string>
+  <string name="fling_longpress_title">Ritardo pressione prolungata</string>
+  <string name="fling_longpress_summary">Aumenta o diminuisce il tempo impiegato per eseguire una pressione prolungata</string>
 
     <!-- Pulse navigation bar music visualizer -->
-    <string name="pulse_help_policy_notice_title">About Pulse</string>
-    <string name="pulse_help_policy_notice_summary">Pulse is a brilliant audio graphic equalizer on the navigation bar when music plays. Pulse does not work with some audio sources when listening on device speaker</string>
-    <string name="pulse_settings">Pulse</string>
-    <string name="pulse_settings_summary">Navigation bar audio graphic equalizer</string>
-    <string name="fling_show_pulse_title">Show Pulse</string>
-    <string name="fling_show_pulse_summary">Audio graphic equalizer on the navigation bar</string>
-    <string name="pulse_render_mode_title">Render mode</string>
-    <string name="pulse_render_mode_fading_bars">Fading blocks</string>
-    <string name="pulse_render_mode_solid_lines">Solid lines</string>
-    <string name="fling_pulse_color">Pulse color</string>
-    <string name="eos_fling_lavalamp_title">Turn on Lava Lamp</string>
-    <string name="eos_fling_lavalamp_summary">Pulse animates a smooth lava lamp style color blend</string>
-    <string name="pulse_advanced_category">Advanced</string>
-    <string name="pulse_legacy_mode_advanced_category">Fading blocks mode settings</string>
-    <string name="pulse_custom_fudge_factor">Sanity level</string>
-    <string name="lavamp_solid_speed_title">Lava Lamp speed</string>
-    <string name="pulse_solid_dimen_category">Solid lines mode settings</string>
+    <string name="pulse_help_policy_notice_title">A proposito di Pulse</string>
+  <string name="pulse_help_policy_notice_summary">Pulse è un brillante equalizzatore grafico audio visualizzato sulla barra di navigazione durante la riproduzione musicale. Pulse non funziona con alcune fonti audio durante l\'ascolto sull\'altoparlante del dispositivo</string>
+  <string name="pulse_settings">Pulse</string>
+  <string name="pulse_settings_summary">Equalizzatore grafico audio barra di navigazione</string>
+  <string name="fling_show_pulse_title">Mostra Pulse</string>
+  <string name="fling_show_pulse_summary">Equalizzatore grafico audio sulla barra di navigazione</string>
+  <string name="pulse_render_mode_title">Modalità esecuzione</string>
+  <string name="pulse_render_mode_fading_bars">Dissolvenza blocchi</string>
+  <string name="pulse_render_mode_solid_lines">Linee continue</string>
+  <string name="fling_pulse_color">Colore Pulse</string>
+  <string name="eos_fling_lavalamp_title">Attiva Lampada di Lava</string>
+  <string name="eos_fling_lavalamp_summary">Pulse mescola e cambia colore come una lampada di lava</string>
+  <string name="pulse_advanced_category">Avanzate</string>
+  <string name="pulse_legacy_mode_advanced_category">Impostazioni della modalità dissolvenza blocchi</string>
+  <string name="pulse_custom_fudge_factor">Livello di buon senso</string>
+  <string name="lavamp_solid_speed_title">Velocità lampada di lava</string>
+  <string name="pulse_solid_units_count">Linee continue solide</string>
+  <string name="pulse_solid_lines_count">Linee continue solide</string>
+  <string name="pulse_solid_units_opacity">Linee continue opache</string>
+  <string name="pulse_solid_dimen_category">Impostazioni della modalità linee continue</string>
+  <string name="fling_lavalamp_color_from">Colore avvio lampada di lava</string>
+  <string name="fling_lavalamp_color_to">Colore finale lampada di lava</string>
 
-    <!-- Pulse config -->
-    <string name="pulse_custom_dimen">Bar width</string>
-    <string name="pulse_custom_div">Bar spacing</string>
-    <string name="pulse_filled_block_size">Block size</string>
-    <string name="pulse_empty_block_size">Block spacing</string>
+     <!-- Pulse config -->
+  <string name="pulse_custom_dimen">Larghezza barra</string>
+  <string name="pulse_custom_div">Spaziatura della barra</string>
+  <string name="pulse_filled_block_size">Dimensione del blocco</string>
+  <string name="pulse_empty_block_size">Spaziatura blocchi</string>
 
-    <!-- Navbar height -->
-    <string name="navigation_bar_size_title">Bar size</string>
-    <string name="portrait_title">Portrait height</string>
-    <string name="land_vert_title">Landscape width</string>
-    <string name="land_hor_title">Landscape height</string>
-    <string name="positive_done">Done</string>
+  <!-- Navbar height -->
+  <string name="navigation_bar_size_title">Dimensioni Barra</string>
+  <string name="portrait_title">Altezza verticale</string>
+  <string name="land_vert_title">Larghezza orizzontale</string>
+  <string name="land_hor_title">Altezza orizzontale</string>
+  <string name="positive_done">Fatto</string>
 
-    <!-- SmartBar -->
-    <string name="smartbar_category">Smartbar</string>
-    <string name="smartbar_settings_title">Smartbar settings</string>
-    <string name="smartbar_editor_title">Toggle button editor</string>
-    <string name="smartbar_editor_summary">Medium press and drag to change position. Long press to show edit menu. Button position may be changed while menu is showing.</string>
-    <string name="smartbar_context_menu_position_title">Context buttons layout position</string>
-    <string name="smartbar_context_menu_position_summary">Set the position of contextual buttons such as menu and ime selector</string>
-    <string name="smartbar_right">Right</string>
-    <string name="smartbar_left">Left</string>
-    <string name="smartbar_button_animation_title">Button touch animation</string>
-    <string name="smartbar_button_animation_summary">Set the animation style of the primary buttons when they are pressed</string>
-    <string name="smartbar_button_animation_ripple">Ripple</string>
-    <string name="smartbar_button_animation_spring">Spring</string>
-    <string name="smartbar_button_animation_flip">Flip</string>
-    <string name="smartbar_factory_reset_title">Reset to stock</string>
-    <string name="smartbar_factory_reset_confirm">Are you sure you want to reset Smartbar to stock settings?</string>
-    <string name="smartbar_ime_action_title">Input method actions</string>
-    <string name="smartbar_ime_action_summary">Set what buttons to show when a on-screen keyboard is showing</string>
-    <string name="smartbar_ime_action_none">None</string>
-    <string name="smartbar_ime_action_arrows">Input arrows</string>
-    <string name="smartbar_ime_action_switcher">Keyboard switcher</string>
-    <string name="smartbar_backup_current_config_title">Save profile</string>
-    <string name="smartbar_restore_config_title">Restore profile</string>
-    <string name="smartbar_config_name_edit_dialog_title">Smartbar profile name</string>
-    <string name="smartbar_config_name_edit_dialog_message">Enter name or leave blank</string>
-    <string name="smartbar_config_dialog_title">Smartbar profiles</string>
-    <string name="smartbar_config_backup_success_toast">Smartbar profile successfully saved</string>
-    <string name="smartbar_config_restore_success_toast">Smartbar profile successfully restored</string>
-    <string name="smartbar_config_backup_error_toast">Error saving Smartbar profile</string>
-    <string name="smartbar_config_restore_error_toast">Error restoring Smartbar profile</string>
-    <string name="navbar_buttons_alpha_title">Button transparency</string>
+  <!-- SmartBar -->
+  <string name="smartbar_category">SmartBar</string>
+  <string name="smartbar_settings_title">Impostazioni Smartbar</string>
+  <string name="smartbar_editor_title">Attiva o disattiva le modifiche dei pulsanti</string>
+  <string name="smartbar_editor_summary">Tieni premuto e trascina per cambiare la posizione. Tieni premuto a lungo per visualizzare il menù di modifica. La posizione del pulsante potrebbe cambiare durante la visualizzazione del menù.</string>
+  <string name="smartbar_context_menu_position_title">Posizione pulsanti contestuali</string>
+  <string name="smartbar_context_menu_position_summary">Regola la posizione dei pulsanti contestuali, come il pulsante menù e il selettore della tastiera</string>
+  <string name="smartbar_right">Destra</string>
+  <string name="smartbar_left">Sinistra</string>
+  <string name="smartbar_button_animation_title">Animazione al tocco del pulsante</string>
+  <string name="smartbar_button_animation_summary">Imposta lo stile di animazione dei pulsanti principali quando vengono premuti</string>
+  <string name="smartbar_button_animation_ripple">Ondulazione</string>
+  <string name="smartbar_button_animation_spring">Rimbalzo</string>
+  <string name="smartbar_button_animation_pixel">Pixel (tutti i pulsanti)</string>
+  <string name="smartbar_button_animation_pixel_home">Pixel (solo il pulsante Home)</string>
+  <string name="smartbar_button_animation_pixel_home_ripple">Pixel (solo il pulsante Home) e ondulazione</string>
+  <string name="smartbar_factory_reset_title">Ripristina a predefinito</string>
+  <string name="smartbar_factory_reset_confirm">Sei sicuro di voler ripristinare Smart Bar alle impostazioni di fabbrica?</string>
+  <string name="smartbar_ime_action_title">Azioni metodo di inserimento</string>
+  <string name="smartbar_ime_action_summary">Imposta quali pulsanti visualizzare quando la tastiera comparirà sullo schermo</string>
+  <string name="smartbar_ime_action_none">Niente</string>
+  <string name="smartbar_ime_action_arrows">Frecce direzionali</string>
+  <string name="smartbar_ime_action_switcher">Cambia tastiera</string>
+  <string name="smartbar_backup_current_config_title">Salva profilo</string>
+  <string name="smartbar_restore_config_title">Ripristinare il profilo</string>
+  <string name="smartbar_config_name_edit_dialog_title">Nome del profilo SmartBar</string>
+  <string name="smartbar_config_name_edit_dialog_message">Immettere un nome oppure lasciare vuoto</string>
+  <string name="smartbar_config_dialog_title">Profili SmartBar</string>
+  <string name="smartbar_config_backup_success_toast">Profilo SmartBar salvato correttamente</string>
+  <string name="smartbar_config_restore_success_toast">Profilo SmartBar ripristinato correttamente</string>
+  <string name="smartbar_config_backup_error_toast">Errore salvataggio del profilo Smartbar</string>
+  <string name="smartbar_config_restore_error_toast">Errore ripristino del profilo Smartbar</string>
+  <string name="navbar_buttons_alpha_title">Trasparenza pulsante</string>
 
     <!-- Quick settings tiles columns and rows config -->
-    <string name="quicksettings_category">Quick settings</string>
-    <string name="qs_layout_category">QS tiles layout</string>
-    <string name="qs_rows_portrait_title">Rows (portrait)</string>
-    <string name="qs_rows_landscape_title">Rows (landscape)</string>
-    <string name="qs_columns_title">Columns</string>
-    <string name="qs_tile_title_visibility_title">QS tile titles</string>
-    <string name="qs_tile_title_visibility_summary_on">QS tiles titles are now visible</string>
-    <string name="qs_tile_title_visibility_summary_off">QS tiles titles are now gone</string>
-    <string name="qs_small_tiles_title">Small QS tiles</string>
-
+  <string name="qs_layout_category">Disposizione tile impostazioni rapide</string>
+  <string name="qs_rows_portrait_title">Righe (verticale)</string>
+  <string name="qs_rows_landscape_title">Righe (orizzontale)</string>
+  <string name="qs_columns_title">Colonne</string>
+  <string name="qqs_scroll_title">Scorrimento tile piccoli</string>
+  <string name="qqs_scroll_summary">Permette lo scorrimento dei tile piccoli delle impostazioni rapide</string>
+    
     <!-- General strings -->
-    <string name="cancel">Cancel</string>
-    <string name="save">Save</string>
+    <string name="cancel">Cancella</string>
+    <string name="save">Salva</string>
     <string name="reset_android">Android</string>
     <string name="reset_citrus">Citrus-CAF</string>
-    <string name="reset_colors">Reset colors</string>
-    <string name="text_title">Text</string>
-    <string name="icon_title">Icon</string>
-    <string name="color_title">Color</string>
-    <string name="colors_title">Colors</string>
+    <string name="reset_colors">Reimposta colori</string>
+    <string name="text_title">Testo</string>
+    <string name="icon_title">Icone</string>
+    <string name="color_title">Colore</string>
+    <string name="colors_title">Colori</string>
 
     <!-- Clock settings -->
-    <string name="clock_category_title">Clock and Date</string>
-    <string name="clock_battery_settings_title">Clock and Battery settings</string>
-    <string name="clock_battery_settings_summary">Options to customize clock and battery</string>
+    <string name="clock_category_title">Orologio e Data</string>
+    <string name="clock_battery_settings_title">Impostazioni dell'orologio e della data</string>
+    <string name="clock_battery_settings_summary">Opzioni per modificare l'orologio e la batteria</string>
 
     <!-- Lockscreen Torch -->
-    <string name="keyguard_torch_title">Lockscreen torch</string>
-    <string name="keyguard_torch_summary">Longpress power button while screen is off to turn on flashlight</string>
+    <string name="keyguard_torch_title">Torcia schermata di blocco</string>
+    <string name="keyguard_torch_summary">Tieni premuto il pulsante alimentazione mentre lo schermo è spento per accendere la torcia</string>
 
     <!-- clock date options -->
-    <string name="clock_title_enable">Alignment</string>
-    <string name="status_bar_show_clock_title">Show clock and date</string>
-    <string name="status_bar_clock_seconds_title">Show seconds</string>
+    <string name="status_bar_show_clock_title">Mostra l\'orologio &amp; la data</string>
+    <string name="status_bar_clock_seconds_title">Mostra i secondi</string>
     <string name="status_bar_am_pm_title">AM/PM</string>
-    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
-    <string name="right_clock">Right clock</string>
-    <string name="center_clock">Center clock</string>
-    <string name="left_clock">Left clock</string>
-    <string name="clock_date_display">Date</string>
-    <string name="clock_date_style">Date style</string>
-    <string name="clock_date_position">Date position</string>
-    <string name="clock_date_format">Date format</string>
-    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
-    <string name="clock_date_string_edittext_summary">Enter string</string>
-    <string name="clock_date_right">Right of time</string>
-    <string name="clock_date_left">Left of time</string>
-    <string name="clock_am_pm_date_normal">Normal</string>
-    <string name="clock_am_pm_date_small">Small</string>
-    <string name="clock_am_pm_date_none">Hidden</string>
-    <string name="clock_date_style_lowercase">Lowercase</string>
-    <string name="clock_date_style_uppercase">Uppercase</string>
-    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="status_bar_am_pm_info">Formato 24 ore attivo</string>
+    <string name="right_clock">Orologio a destra</string>
+    <string name="center_clock">Orologio centrato</string>
+    <string name="left_clock">Orologio a sinistra</string>
+    <string name="clock_date_display">Data</string>
+    <string name="clock_date_style">Stile data</string>
+    <string name="clock_date_position">Posizione data</string>
+    <string name="clock_date_format">Formato data</string>
+    <string name="clock_date_string_edittext_title">Deve essere nel formato data es. MM/dd/yy</string>
+    <string name="clock_date_string_edittext_summary">Immettere la stringa</string>
+    <string name="clock_date_right">A destra dell\'ora</string>
+    <string name="clock_date_left">A sinistra dell\'ora</string>
+    <string name="clock_am_pm_date_normal">Normale</string>
+    <string name="clock_am_pm_date_small">Piccola</string>
+    <string name="clock_am_pm_date_none">Nascosta</string>
+    <string name="clock_date_style_lowercase">Minuscolo</string>
+    <string name="clock_date_style_uppercase">Maiuscolo</string>
+    <string name="clock_date_format_custom">Formato Java personalizzato</string>
 
     <!-- qs brightness slider -->
-    <string name="qs_brightness_slider_title">Brightness slider</string>
-    <string name="qs_brightness_slider_summary">Show brightness slider on quick settings panel</string>
+    <string name="qs_brightness_slider_title">Cursore luminosità</string>
+    <string name="qs_brightness_slider_summary">Mostra un cursore di luminosità nel pannello delle impostazioni rapide</string>
+     
     <!-- Power notification controls -->
-    <string name="power_notification_title">Power notification controls</string>
-    <string name="power_notification_summary">Advanced notification controls and information</string>
+    <string name="power_notification_controls_title">Comandi di accensione notifica</string>
+    <string name="power_notification_controls_summary">Seleziona il livello d\'importanza per le tue notifiche</string>
+     
     <!-- Preference to show/hide embedded battery percentage -->
-    <string name="show_battery_percentage">Show battery percentage</string>
-    <string name="show_battery_percentage_summary">Show battery percentage when not charging</string>
+    <string name="show_battery_percentage">Mostra percentuale batteria</string>
+    <string name="show_battery_percentage_summary">Mostra la percentuale della batteria quando il dispositivo non è in carics</string>
+     
     <!-- statusbar icon blacklist -->
-    <string name="status_bar_icon_blacklist_title">Status bar icons</string>
-    <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
+    <string name="status_bar_icon_blacklist_title">Icone della barra di stato</string>
+    <string name="status_bar_icon_blacklist_summary">Configura quali icone sono mostrate nella barra di stato</string>
 
     <!-- Lockscreen items clock, date, alarm text -->
-    <string name="lockscreen_items_settings_title">Lockscreen Items</string>
-    <string name="lockscreen_clock_title">Lockscreen clock</string>
-    <string name="lockscreen_date_title">Lockscreen date</string>
-    <string name="lockscreen_alarm_title">Lockscreen alarm text</string>
+    <string name="hide_lockscreen_items_title">Elementi nella schermata di blocco</string>
+    <string name="hide_lockscreen_clock_title">Mostra l\'orologio</string>
+    <string name="hide_lockscreen_date_title">Mostra la data</string>
+    <string name="hide_lockscreen_alarm_title">Mostra la sveglia</string>
 
     <!-- fingerprint authentication vibration -->
-    <string name="fprint_sucess_vib_title">Fingerprint authentication vibration</string>
-    <string name="fprint_sucess_vib_summary">Vibrate on successful fingerprint authentication</string>
+    <string name="fprint_sucess_vib_title">Autenticazione impronta digitale con vibrazione</string>
+    <string name="fprint_sucess_vib_summary">Vibra all\'avvenuta autenticazione tramite impronta digitale</string>
 
-   <!-- Custom carrier label and position -->
-    <string name="carrier_label_settings_title">Carrier Label</string>
-    <string name="carrier_label_settings_summary">Customize the carrier label</string>
-    <string name="custom_carrier_label_title">Custom carrier label</string>
-    <string name="custom_carrier_label_explain">Please enter a new label. Leave blank to revert to stock label.</string>
-    <string name="custom_carrier_label_notset">Custom label currently not set</string>
-    <string name="show_carrier_title">Carrier label</string>
-    <string name="show_carrier_disabled">Disabled</string>
-    <string name="show_carrier_keyguard">Lockscreen only</string>
-    <string name="show_carrier_statusbar">Statusbar only</string>
-    <string name="show_carrier_enabled">Lockscreen &amp; statusbar</string>
+    <!-- Custom carrier label and position -->
+    <string name="carrier_label_settings_title">Etichetta operatore</string>
+    <string name="carrier_label_settings_summary">Personalizzazione dell\'etichetta operatore</string>
+    <string name="custom_carrier_label_title">Personalizza l\'etichetta operatore</string>
+    <string name="custom_carrier_label_explain">Si prega di inserire una nuova etichetta. Lasciare vuoto per tornare a quello predefinito.</string>
+    <string name="custom_carrier_label_notset">Nessuna etichetta personalizzata al momento impostata</string>
+    <string name="show_carrier_title">Mostra etichetta operatore</string>
+    <string name="show_carrier_disabled">Disabilitato</string>
+    <string name="show_carrier_keyguard">Solo schermata di blocco</string>
+    <string name="show_carrier_statusbar">Solo barra di stato</string>
+    <string name="show_carrier_enabled">Schermata di blocco &amp; Barra di Stato</string>
 
     <!-- Screen record chord behavior -->
-    <string name="screen_record_chord_title">Power + volume up behavior</string>
-    <string name="screen_record_chord_screenrecord">Start screen recording</string>
-    <string name="screen_record_chord_selscreenshot">Take screenshot of selectable area</string>
+    <string name="screen_record_chord_title">Power + volume up behaviorTasto accensione + tasto volume su comporta</string>
+    <string name="screen_record_chord_screenrecord">Inizia la registrazione dello schermo</string>
+    <string name="screen_record_chord_selscreenshot">Fare uno screenshot di una determinata area</string>
 
     <!-- Status Bar Ticker -->
-    <string name="ticker_screen_title">Ticker</string>
-    <string name="ticker_title">Status Bar Ticker</string>
-    <string name="ticker_screen_summary">Customize the ticker style</string>
-    <string name="ticker_summary">Enable the old status bar ticker</string>
-    <string name="ticker_font_style_title">Font Style</string>
-    <string name="ticker_font_size_title">Font Size</string>
+    <string name="ticker_screen_title">Ticker di notifica</string>
+    <string name="ticker_title">Ticker barra di stato</string>
+    <string name="ticker_screen_summary">Personalizza lo stile dei ticker nella barra di stato</string>
+    <string name="ticker_summary">Abilita il vecchio ticker della barra di stato</string>
+    <string name="ticker_font_style_title">Stile carattere</string>
+    <string name="ticker_font_size_title">Dimensioni carattere</string>
 
     <!-- Heads up switch -->
-    <string name="heads_up_switch_title">Heads up</string>
-    <string name="heads_up_switch_summary">Toogle Heads up globally, not per app.</string>
+    <string name="heads_up_switch_title">Heads Up</string>
+    <string name="heads_up_switch_summary">Abilita Heads up globalmente, non per app</string>
 
     <!-- Fonts -->
     <string name="font_normal">Roboto</string>
@@ -387,61 +392,61 @@
     <string name="font_notoserif_bold_italic">NotoSerif Bold Italic</string>
 
     <!-- Hardware button navigation -->
-    <string name="hardware_keys_settings_title">Hardware Keys</string>
-    <string name="hardware_keys_home_key_title">Home button</string>
-    <string name="hardware_keys_menu_key_title">Menu button</string>
-    <string name="hardware_keys_assist_key_title">Search button</string>
-    <string name="hardware_keys_appswitch_key_title">Overview button</string>
-    <string name="hardware_keys_back_key_title">Back button</string>
-    <string name="hardware_keys_double_tap_summary">Set double tap action</string>
-    <string name="hardware_keys_single_tap_summary">Set single tap action</string>
-    <string name="hardware_keys_long_press_summary">Set long press action</string>
-    <string name="hardware_keys_single_tap_title">Single tap action</string>
-    <string name="hardware_keys_long_press_title">Long press action</string>
-    <string name="hardware_keys_double_tap_title">Double tap action</string>
-    <string name="hardware_keys_category">Navigation buttons</string>
-    <string name="hardware_keys_disable_title">Disable navigation buttons</string>
+    <string name="hardware_keys_settings_title">Pulsanti fisici</string>
+    <string name="hardware_keys_home_key_title">Pulsante home</string>
+    <string name="hardware_keys_menu_key_title">Pulsante menù</string>
+    <string name="hardware_keys_assist_key_title">Pulsante cerca</string>
+    <string name="hardware_keys_appswitch_key_title">Pulsante generale</string>
+    <string name="hardware_keys_back_key_title">Pulsante indietro</string>
+    <string name="hardware_keys_double_tap_summary">Imposta azione doppio tocco</string>
+    <string name="hardware_keys_single_tap_summary">Imposta azione singolo tocco</string>
+    <string name="hardware_keys_long_press_summary">Imposta azione pressione prolungata</string>
+    <string name="hardware_keys_single_tap_title">Azione singolo tocco</string>
+    <string name="hardware_keys_long_press_title">Azione pressione prolungata</string>
+    <string name="hardware_keys_double_tap_title">Azione doppio tocco</string>
+    <string name="hardware_keys_category">Tasti fisici</string>
+    <string name="hardware_keys_disable_title">Disabilita i tasti fisici</string>
 
     <!-- Battery customizations -->
-    <string name="battery_category_title">Battery</string>
-    <string name="status_bar_battery_style_title">Battery status style</string>
-    <string name="status_bar_battery_style_icon_portrait">Icon portrait</string>
-    <string name="status_bar_battery_style_icon_landscape">Icon landscape</string>
-    <string name="status_bar_battery_style_solid">Solid</string>
-    <string name="status_bar_battery_style_circle">Circle</string>
-    <string name="status_bar_battery_style_text">Text</string>
-    <string name="status_bar_battery_style_hidden">Hidden</string>
-    <string name="status_bar_battery_percentage_title">Battery percentage</string>
-    <string name="status_bar_battery_percentage_default">Hidden</string>
-    <string name="status_bar_battery_percentage_text_inside">Inside the icon</string>
-    <string name="status_bar_battery_percentage_text_next">Next to the icon</string>
-    <string name="status_bar_battery_style_tile_title">Custom battery tile style</string>
-    <string name="status_bar_battery_style_tile_summary">Allow to set the same icon style chosen for the statusbar battery</string>
-    <string name="status_bar_charge_color_title">Statusbar battery icon charging color</string>
-    <string name="status_bar_charge_color_summary">Set the color of the statusbar battery icon while charging</string>
-    <string name="force_charge_battery_text_title">Statusbar battery charging percent</string>
-    <string name="force_charge_battery_text_summary_on">Show the battery percentage outside the icon while charging</string>
-    <string name="force_charge_battery_text_summary_off">Show the battery percentage inside the icon while charging</string>
-    <string name="text_charging_symbol_title">Charging symbol near percentage text</string>
-    <string name="text_charging_symbol_dialog">Show a symbol near percentage text outside the battery icon when charging</string>
-    <string name="text_charging_symbol_default">Disabled</string>
-    <string name="text_charging_symbol_flash">Flash</string>
+    <string name="battery_category_title">Batteria</string>
+    <string name="status_bar_battery_style_title">Stile indicatore batteria</string>
+    <string name="status_bar_battery_style_icon_portrait">Icona verticale</string>
+    <string name="status_bar_battery_style_icon_landscape">Icona orizzontale</string>
+    <string name="status_bar_battery_style_circle">Cerchio</string>
+    <string name="status_bar_battery_style_bigcircle">Cerchio grande</string>
+    <string name="status_bar_battery_style_circle_full">Cerchio completo</string>
+    <string name="status_bar_battery_style_text">Testo</string>
+    <string name="status_bar_battery_style_hidden">Nascosta</string>
+    <string name="status_bar_battery_percentage_title">Percentuale della batteria</string>
+    <string name="status_bar_battery_percentage_default">Nascosta</string>
+    <string name="status_bar_battery_percentage_text_inside">All\'interno dell\'icona</string>
+    <string name="status_bar_battery_percentage_text_next">Accanto all\'icona</string>
+    <string name="status_bar_battery_style_tile_title">Stile tile batteria personalizzato</string>
+    <string name="status_bar_battery_style_tile_summary">Permette di impostare lo stesso stile di icona della batteria scelta per la barra di stato</string>
+    <string name="status_bar_charge_color_title">Colore dell\'icona della batteria in carica</string>
+    <string name="force_charge_battery_text_title">Percentuale di carica della batteria</string>
+    <string name="force_charge_battery_text_summary_on">Visualizza la percentuale della batteria fuori l\'icona durante la carica</string>
+    <string name="force_charge_battery_text_summary_off">Visualizza la percentuale di carica della batteria all\'interno dell\'icona durante la ricarica</string>
+    <string name="text_charging_symbol_title">Simbolo della ricarica accanto al testo della percentuale</string>
+    <string name="text_charging_symbol_dialog">Visualizza un simbolo accanto al testo della percentuale della batteria fuori l\'icona durante la carica</string>
+    <string name="text_charging_symbol_default">Disattivato</string>
+    <string name="text_charging_symbol_flash">Fulmine</string>
     <string name="text_charging_symbol_tilde">Tilde</string>
 
     <!-- Quick Settings on lockscreen -->
-    <string name="lockscreen_qs_disabled_title">Disable quick settings when locked</string>
-    <string name="lockscreen_qs_disabled_summary">Disable shortcuts and expanding quick settings on secure lock screens</string>
+    <string name="lockscreen_qs_disabled_title">Disabilita impostazioni rapide</string>
+  <string name="lockscreen_qs_disabled_summary">Disabilita le impostazioni rapide sulla scheramata di blocco</string>
 
     <!-- Custom summary text -->
-    <string name="custom_settings_summary_title">CustomSquash summary text</string>
-    <string name="custom_summary_title">CustomSquash summary</string>
-    <string name="custom_summary_explain">Enter new summary text. Leave blank to revert to default.</string>
+    <string name="custom_settings_summary_title">CustomSquash testo del sommario</string>
+    <string name="custom_summary_title">CustomSquash sommario</string>
+    <string name="custom_summary_explain">Inserisci un nuovo sommario. Lascia vuoto per ritornare a quello predefinito.</string>
 
     <!-- Custom summaries -->
-    <string name="custom_summary_cat_title">Custom summary</string>
-    <string name="custom_summary_randomize_title">Randomize summary</string>
-    <string name="custom_summary_randomize_explain">Pre-written summaries will be selected at random and will change everytime you start the Settings app.\nThis overrides any custom summary set.</string>
-    <string name="custom_title_summary">Welcome to LemonLand!</string>
+    <string name="custom_summary_cat_title">Sommario</string>
+    <string name="custom_summary_randomize_title">Randomizza sommario</string>
+    <string name="custom_summary_randomize_explain">Dei sommari pre-scritti verranno randomicamente selezionati e cambieranno ogni volta che entri nelle impostazioni.\nQuesto sovrascrive ogni sommario personalizzato.</string>
+    <string name="custom_title_summary">Benvenuto nella LemonLand!</string>
     <string name="sum1">#CozYolo</string>
     <string name="sum2">#MAKELEMONADE</string>
     <string name="sum3">#LEMONHAX</string>
@@ -452,134 +457,132 @@
     <string name="sum8">#HakunaMatata!</string>
 
     <!-- Toast Icons -->
-    <string name="toast_icon_title">Toast icon</string>
-    <string name="toast_icon_summary">Display the app icon corresponding with the toast</string>
-
+    <string name="toast_icon_title">Icona toast</string>
+    <string name="toast_icon_summary">Visualizza l\'icona dell\'applicazione corrispondente al toast</string>
+     
     <!-- System App Remover  -->
-    <string name="listsystem">list</string>
-    <string name="sizer_title">App remover</string>
-    <string name="caution">Caution!</string>
-    <string name="sizer_message_startup">This tool allows you to delete system apps. Use with caution and only delete apps you know are safe to be removed.</string>
-    <string name="cancel">Cancel</string>
-    <string name="sizer_message_delete">Are you sure you want to delete this app?</string>
-    <string name="btn_delete">Delete selected APPs now!</string>
-    <string name="delete_progress_title">Deleting</string>
-    <string name="delete_progress">Selected files are being deleted...</string>
-    <string name="delete_success">Deleted</string>
-    <string name="delete_fail">Unable to delete</string>
+    <string name="listsystem">Lista</string>
+    <string name="sizer_title">Rimuovi app</string>
+    <string name="caution">Attenzione!</string>
+    <string name="sizer_message_startup">Questo tool permette di cancellare le app di sistema. Usalo con attenzione e cancella solamente le app che possono essere rimosse in modo sicuro.</string>
+    <string name="cancel">Indietro</string>
+    <string name="sizer_message_delete">Sei sicuro di voler cancellare questa app?</string>
+    <string name="btn_delete">Cancella le app selezioate adesso!</string>
+    <string name="delete_progress_title">Cancellando</string>
+    <string name="delete_progress">I file selezionati si stanno cancellando...</string>
+    <string name="delete_success">Cancellato</string>
+    <string name="delete_fail">Impossibile cancellare</string>
     <string name="btn_profile">Profile</string>
-    <string name="sizer_message_sdnowrite">Cannot write to SD Card.</string>
-    <string name="sizer_message_sdnoread">Cannot read SD Card.</string>
-    <string name="sizer_message_filesuccess">Created profile.</string>
-    <string name="sizer_message_filefail">Failed to create profile.</string>
-    <string name="sizer_message_noselect">Nothing selected.</string>
+    <string name="sizer_message_sdnowrite">Non posso scrivere SD Card.</string>
+    <string name="sizer_message_sdnoread">Non posso leggere la SD Card.</string>
+    <string name="sizer_message_filesuccess">Profilo creato.</string>
+    <string name="sizer_message_filefail">Impossibile creare il profilo.</string>
+    <string name="sizer_message_noselect">Non è stato selezionato nulla.</string>
     <string name="system_app_remover">System App Remover</string>
 
     <!-- Buttons backlight timeout -->
-    <string name="backlight_timeout_title">Buttons backlight timeout</string>
-    <string name="backlight_timeout_on">Enabled always</string>
-    <string name="backlight_timeout_default">5 sec (default)</string>
-    <string name="backlight_timeout_10s">10 sec</string>
-    <string name="backlight_timeout_15s">15 sec</string>
-    <string name="backlight_timeout_20s">20 sec</string>
-    <string name="backlight_timeout_30s">30 sec</string>
+    <string name="backlight_timeout_title">Tempo dell'illuminazione dei pulsanti</string>
+    <string name="backlight_timeout_on">Abilita sempre</string>
+    <string name="backlight_timeout_default">5 sececondi (predefinito)</string>
+    <string name="backlight_timeout_10s">10 secondi</string>
+    <string name="backlight_timeout_15s">15 secondi</string>
+    <string name="backlight_timeout_20s">20 secondi</string>
+    <string name="backlight_timeout_30s">30 secondi</string>
     
     <!-- Enable keys backlight-->
-    <string name="button_brightness_title">Enable backlight</string>
+    <string name="button_brightness_title">Abilita retroilluminazione</string>
 
     <!-- lock screen visualizer -->
-    <string name="lockscreen_visualizer_title">Display music visualizer</string>
+    <string name="lockscreen_visualizer_title">Mostra visualizzatore musicale</string>
 
     <!-- Recents -->
-    <string name="recents_category">Recents</string>
+    <string name="recents_category">Recenti</string>
     <!-- Clear-All recents FAB -->
-    <string name="show_clear_all_recents_button_title">Clear-all FAB</string>
-    <string name="show_clear_all_recents_button_summary_on">Show clear all FAB</string>
-    <string name="show_clear_all_recents_button_summary_off">Show AOSP clear all</string>
-    <string name="recents_clear_all_location_title">Clear all FAB location</string>
-    <string name="recents_clear_all_location_top_right">Top right</string>
-    <string name="recents_clear_all_location_top_center">Top center</string>
-    <string name="recents_clear_all_location_bottom_right">Bottom right</string>
-    <string name="recents_clear_all_location_bottom_left">Bottom left</string>
-    <string name="recents_clear_all_location_bottom_center">Bottom center</string>
-
+    <string name="show_clear_all_recents_button_title">Pulsante cancella tutto</string>
+    <string name="show_clear_all_recents_button_summary">Mostra il pulsante cancella tutto</string>
+    <string name="recents_clear_all_location_title">Posizione pulsante cancella tutto</string>
+    <string name="recents_clear_all_location_top_right">In alto a destra</string>
+    <string name="recents_clear_all_location_top_left">In alto a sinistra</string>
+    <string name="recents_clear_all_location_top_center">In alto al centro</string>
+    <string name="recents_clear_all_location_bottom_right">In basso a destra</string>
+    <string name="recents_clear_all_location_bottom_left">In basso a sinistra</string>
+    <string name="recents_clear_all_location_bottom_center">In basso al centro</string>
+     
     <!-- Lockscreen double tap to sleep -->
     <string name="tap_to_sleep_lockscreen_category">Tap to Sleep on Lockscreen</string>
     <string name="double_tap_sleep_anywhere_title">Double-tap to sleep anywhere</string>
-    <string name="double_tap_sleep_anywhere_summary">Double tap anywhere on the lockscreen to put the device to sleep</string>
+    <string name="double_tap_sleep_anywhere_summary">Doppio tocco ovunque nella schermata di blocco per spegnere lo schermo</string>
 
     <!-- Recents memory bar -->
-    <string name="systemui_recents_mem_display_title">Show memory bar</string>
-    <string name="systemui_recents_mem_display_summary">Display RAM usage under recents view</string>
+    <string name="systemui_recents_mem_display_title">Barra della RAM</string>
+    <string name="systemui_recents_mem_display_summary">Mostra l'uso della RAM nei recenti</string>
 
     <!-- Advanced data tile -->
-    <string name="qs_advanced_tile_cat">Advanced tiles</string>
-    <string name="qs_advanced_data_title">Advanced Data tile</string>
-    <string name="qs_advanced_data_summary">Enable one tap action to enable or disable data</string>
+    <string name="qs_advanced_tile_cat">Tile avanzati</string>
+    <string name="qs_advanced_data_title">Dati mobile attivo al tocco</string>
+    <string name="qs_advanced_data_summary">Fa in modo che con un tocco verrà attivato o disattivato i dati mobile invece di entrare nelle impostazioni</string>
 
     <!-- Advanced BT tile -->
-    <string name="qs_advanced_bt_title">Advanced bluetooth tile</string>
-    <string name="qs_advanced_bt_summary">Enable one tap action to enable or disable Bluetooth</string>
+   <string name="qs_bt_easy_toggle_title">Bluetooth attivo al tocco</string>
+   <string name="qs_bt_easy_toggle_summary">Fa in modo che con un tocco verrà attivato o disattivato il Bluetooth invece di entrare nelle impostazioni</string>
  
     <!-- Advanced WIFI tile -->
-    <string name="qs_advanced_wifi_title">Advanced Wi-Fi tile</string>
-    <string name="qs_advanced_wifi_summary">Enable one tap action to enable or disable WiFi</string>
- 
-     <!-- QS headers -->
-    <string name="qs_header_category">QS Header options</string>
-    <string name="status_bar_custom_header_title">Custom header image</string>
-    <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
-    <string name="daylight_header_pack_title">Header image pack</string>
-    <string name="status_bar_custom_header_shadow_title">Shadow header image</string>
-    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
-    <string name="static_header_provider" translatable="false">static</string>
-    <string name="daylight_header_provider" translatable="false">daylight</string>
-    <string name="static_header_provider_title">Static</string>
-    <string name="daylight_header_provider_title">Dynamic</string>
-    <string name="custom_header_provider_title">Header provider</string>
-    <string name="custom_header_browse_title">Browse installed headers</string>
-    <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+    <string name="qs_advanced_wifi_title">Wi-Fi attivo al tocco</string>
+    <string name="qs_advanced_wifi_summary">Fa in modo che con un tocco verrà attivato o disattivato il Wi-Fi invece di entrare nelle impostazioni</string>
+   
+    <!-- QS headers -->
+    <string name="qs_header_category">Opzioni intestazione impostaioni rapide</string>
+    <string name="status_bar_custom_header_title">Immagine intestazione personalizzata</string>
+    <string name="status_bar_custom_header_summary">Abilita un\'immagine nell\'intestazione del pannello delle notifiche</string>
+    <string name="daylight_header_pack_title">Pacchetto immagini intestazione</string>
+    <string name="status_bar_custom_header_shadow_title">Ombra immagine intestazione</string>
+    <string name="status_bar_custom_header_shadow_summary">Per una migliore visibilità su immagini luminose</string>
+    <string name="static_header_provider_title">Statico</string>
+    <string name="daylight_header_provider_title">Dinamico</string>
+    <string name="custom_header_provider_title">Scelta intestazione</string>
+    <string name="custom_header_browse_title">Sfoglia intestazioni installate</string>
+    <string name="custom_header_browse_summary">Premi a lungo su qualsiasi immagine da utilizzare per la modalità statica</string>
 
     <!--  Lockscreen battery info indicator  -->
-    <string name="lockscreen_battery_info_title">Lockscreen charging info</string>
-    <string name="lockscreen_battery_info_summary">Display real time charger current, voltage and battery temperature on lockscreen while charging</string>
+    <string name="lockscreen_battery_info_title">Info batteria schermata di blocco</string>
+    <string name="lockscreen_battery_info_summary">Mostra il voltaggio e la temperatura della batteria sulla schermata di blocco durante la ricarica</string>
   
     <!-- Battery Bar -->
-    <string name="battery_bar_title">Battery bar</string>
-    <string name="battery_bar">Battery bar location</string>
-    <string name="battery_bar_no_navbar">Battery bar location</string>
-    <string name="battery_bar_color">Battery bar color</string>
-    <string name="battery_bar_charging_color">Battery bar charging color</string>
-    <string name="battery_bar_battery_low_color">Battery bar low battery color</string>
-    <string name="battery_bar_cat">Battery bar style</string>
-    <string name="battery_bar_style_title">Battery bar alignment</string>
-    <string name="battery_bar_thickness_title">Battery bar thickness</string>
-    <string name="battery_bar_animate_title">Charging animation</string>
-    <string name="battery_bar_style_regular">Regular</string>
-    <string name="battery_bar_style_center_mirrored">Center-mirrored</string>
-    <string name="battery_bar_style_reversed">Reversed</string>
+    <string name="battery_bar_title">Barra batteria</string>
+    <string name="battery_bar">Posizione barra batteria</string>
+    <string name="battery_bar_no_navbar">Posizione barra batteria</string>
+    <string name="battery_bar_color">Colore barra batteria</string>
+    <string name="battery_bar_charging_color">Colore di ricarica</string>
+    <string name="battery_bar_battery_low_color">Colore batteria scarica</string>
+    <string name="battery_bar_cat">Stile barra batteria</string>
+    <string name="battery_bar_style_title">Allineamento barra batteria</string>
+    <string name="battery_bar_thickness_title">Spessore barra batteria</string>
+    <string name="battery_bar_animate_title">Animazione di ricarica</string>
+    <string name="battery_bar_style_regular">Regolare</string>
+    <string name="battery_bar_style_center_mirrored">Centrata e specchiata</string>
+    <string name="battery_bar_style_reversed">Invertita</string>
 
 <!-- Citrus Logo --> 
     <string name="status_bar_citrus_logo_frags_title">Citrus-CAF logo</string>
-    <string name="status_bar_citrus_logo_title">Enable Logo</string>
-    <string name="status_bar_citrus_logo_summary">Enable to show Citrus-CAF logo on the status bar</string>
-    <string name="status_bar_citrus_logo_color">Logo color</string>
+    <string name="status_bar_citrus_logo_title">Abilita il Logo</string>
+    <string name="status_bar_citrus_logo_summary">Attiva per mostrare il logo Citrus-CAF nella barra di stato</string>
+    <string name="status_bar_citrus_logo_color">Colore logo</string>
     <string name="status_bar_logo">Citrus-CAF logo</string>
-    <string name="status_bar_citrus_logo_position">Logo location</string>
-    <string name="status_bar_citrus_logo_position_summary">Choose which side to display the logo on, left or right</string>
-    <string name="status_bar_logo_position_right">Right</string>
-    <string name="status_bar_logo_position_left">Left</string>
-    <string name="status_bar_logo_position_center">Center</string>
+    <string name="status_bar_citrus_logo_position">Posizione logo</string>
+    <string name="status_bar_citrus_logo_position_summary">Scegli in che lato mostrare il logo</string>
+    <string name="status_bar_logo_position_right">Destra</string>
+    <string name="status_bar_logo_position_left">Sinistra</string>
+    <string name="status_bar_logo_position_center">Centro</string>
   
     <!--Custom logos-->
-    <string name="citrus_custom_logo_summary">Choose between a variety of Custom logos/images in statusbar</string>
-    <string name="sb_custom_logos">Custom Icons</string>
-    <string name="custom_logo_style">Icons</string>
-    <string name="custom_logos">Take your Pick</string>
-    <string name="show_custom_logo_title">Show custom icons</string>
-    <string name="custom_logo_color">Color</string>
-    <string name="logo0">Tuner </string>
-    <string name="logo1">BugDroid Minimal </string>
+    <string name="citrus_custom_logo_summary">Scegli tra una varietà di immagini personalizzate nella barra di stato</string>
+    <string name="sb_custom_logos">Icone personalizzate</string>
+    <string name="custom_logo_style">Icone</string>
+    <string name="custom_logos">Scegline una</string>
+    <string name="show_custom_logo_title">Mostra icone personalizzate</string>
+    <string name="custom_logo_color">Colore</string>
+    <string name="logo0">Tuner</string>
+    <string name="logo1">BugDroid Minimal</string>
     <string name="logo2">Drupal</string>
     <string name="logo3">Cool Smile</string>
     <string name="logo4">Ghost</string>
@@ -618,29 +621,29 @@
     <string name="logo37">Orioles</string>
 
     <!-- One handed mode -->
-    <string name="one_handed_mode_title">One handed mode</string>
-    <string name="one_handed_mode_summary">Allows swiping on the navigation bar to enable one handed mode</string>
+    <string name="one_handed_mode_title">Modalità una mano</string>
+    <string name="one_handed_mode_summary">Consente di attivare la modalità una mano strisciando sulla barra di navigazione</string>
 
     <!-- Quick Pulldown-->
-    <string name="quick_pulldown_title">Quick pulldown</string>
-    <string name="quick_pulldown_summary">%1$s edge of the status bar pulls down Quick Settings</string>
-    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldown</string>
+    <string name="quick_pulldown_title">Discesa rapida</string>
+    <string name="quick_pulldown_summary">%1$s Il bordo della barra di stato tira giù le impostazioni rapide</string>
+    <string name="quick_pulldown_summary_always">Always show Quick Settings on status bar pulldownMostra sempre le</string>
     <string name="quick_pulldown_off">Off</string>
-    <string name="quick_pulldown_left">Left</string>
-    <string name="quick_pulldown_right">Right</string>
-    <string name="quick_pulldown_always">Always</string>
+    <string name="quick_pulldown_left">Sinistra</string>
+    <string name="quick_pulldown_right">Destra</string>
+    <string name="quick_pulldown_always">Sempre</string>
 
     <!-- Notification Count in Statusbar --> 
-    <string name="status_bar_notif_count_title">Show notification count</string> 
-    <string name="status_bar_notif_count_summary">Display the number of pending notifications</string>
+    <string name="status_bar_notif_count_title">Mostra contatore notifiche</string>
+    <string name="status_bar_notif_count_summary">Mostra il numero di notifiche in sospeso</string>
 
     <!-- Media art -->
-    <string name="media_art_title">Media cover art</string>
-    <string name="media_art_summary">Enable media cover art on the lockscreen</string>
+    <string name="media_art_title">Copertina applicazioni multimediali</string>
+    <string name="media_art_summary">Abilita la visualizzazione della copertina dei file multimediali nella schermata di blocco</string>
 
     <!-- Fingerprint unlock keystore -->
-    <string name="fp_unlock_keystore_title">FP unlock</string>
-    <string name="fp_unlock_keystore_summary">Unlock device with fingerprint after reboot without PIN/Password/Pattern\nNote: at your own risk!</string>
-    <string name="fp_cat_title">Fingerprint</string>
+    <string name="fp_unlock_keystore_title">Sblocco con il sensore di impronte</string>
+    <string name="fp_unlock_keystore_summary">Sblocca il dispositivo con il sensore di impronte dopo un riavvio senza immettere nessun PIN/Passoword/PatternnNota: a tuo rischio!</string>
+    <string name="fp_cat_title">Sensore di impronte</string>
 
 </resources>

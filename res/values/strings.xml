@@ -394,4 +394,9 @@
     <string name="incall_vibrate_disconnect_title">Vibrate on disconnect</string>
     <string name="incall_vibrate_disconnect_summary">Enable to vibrate after call disconnect</string>
 
+    <!-- Heads up -->
+    <string name="heads_up_notifications">HeadsUp</string>
+    <string name="summary_heads_up_enabled">HeadsUp notifications are enabled</string>
+    <string name="summary_heads_up_disabled">HeadsUp notifications are disabled</string>
+
 </resources>

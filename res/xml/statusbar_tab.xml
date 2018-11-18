@@ -18,6 +18,11 @@
     android:layout="@layout/tab"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings" >
 
+    <Preference
+        android:key="battery_settings"
+        android:title="@string/battery_options_title"
+        android:summary="@string/battery_options_summary"
+        android:fragment="com.citrus.settings.fragments.BatterySettings" />
 
   <Preference
     android:key="quicksettings"

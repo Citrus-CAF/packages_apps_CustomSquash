@@ -25,6 +25,12 @@
         android:fragment="com.citrus.settings.fragments.BatterySettings" />
 
     <Preference
+        android:key="clock_settings"
+        android:title="@string/clock_options_title"
+        android:summary="@string/clock_options_summary"
+        android:fragment="com.citrus.settings.fragments.ClockSettings" />
+
+    <Preference
         android:key="notification_settings"
         android:title="@string/notification_settings_title"
         android:summary="@string/notification_settings_summary"

@@ -26,6 +26,14 @@
         android:summaryOff="@string/summary_heads_up_disabled"
         android:defaultValue="true" />
 
+    <com.citrus.settings.preference.SystemSettingListPreference
+        android:key="mute_annoying_notifications_threshold"
+        android:title="@string/less_notification_sounds_title"
+        android:summary="@string/less_notification_sounds_summary"
+        android:entries="@array/less_notification_sounds_entries"
+        android:entryValues="@array/less_notification_sounds_values"
+        android:defaultValue="0" />
+
     <com.citrus.settings.preference.SystemSettingSwitchPreference
         android:key="notification_sound_vib_screen_on"
         android:title="@string/notification_sound_vib_screen_on_title"

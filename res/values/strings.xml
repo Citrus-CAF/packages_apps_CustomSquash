@@ -293,9 +293,7 @@
 
     <!-- Suppress notification sound/vibration -->
     <string name="notification_sound_vib_screen_on_title">Notifications sound and vibration while screen is on</string>
-    <string name="notification_sound_vib_screen_on_never">Never</string>
-    <string name="notification_sound_vib_screen_on_always">Always (default)</string>
-    <string name="notification_sound_vib_screen_on_nomedia">If no media is playing</string>
+    <string name="notification_sound_vib_screen_on_summary">Play sound and vibration for notifications when screen is on</string>
 
     <!-- Expanded desktop -->
     <string name="expanded_desktop_category">Expanded Desktop</string>
@@ -399,6 +397,9 @@
     <string name="summary_heads_up_enabled">HeadsUp notifications are enabled</string>
     <string name="summary_heads_up_disabled">HeadsUp notifications are disabled</string>
 
+    <!-- Battery options -->
+    <string name="battery_options_title">Battery options</string>
+    <string name="battery_options_summary">Customize the statusbar or QS tile battery</string>
     <!-- Battery styles -->
     <string name="battery_style_title">Battery icon style</string>
     <string name="battery_style_summary">Change the style of the status bar battery</string>
@@ -413,5 +414,9 @@
     <string name="battery_percent_hidden">Hidden</string>
     <string name="battery_percent_outside">Outside</string>
     <string name="battery_percent_inside">Inside</string>
+
+    <!-- Notification settings -->
+    <string name="notification_settings_title">Notification</string>
+    <string name="notification_settings_summary">Manage notifcation related options</string>
 
 </resources>

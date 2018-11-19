@@ -424,4 +424,15 @@
     <string name="qs_brightness_slider_position_summary_on">Show QS brightness slider at bottom</string>
     <string name="qs_brightness_slider_position_summary_off">Show QS brightness slider at top</string>
 
+    <!-- Custom carrier label and position -->
+    <string name="status_bar_carrier_label_category_title">Carrier label</string>
+    <string name="custom_carrier_label_title">Custom carrier label</string>
+    <string name="custom_carrier_label_explain">Leave blank to revert to stock label.</string>
+    <string name="custom_carrier_label_notset">Custom label not set</string>
+    <string name="show_carrier_title">Show carrier label</string>
+    <string name="show_carrier_disabled">Disabled</string>
+    <string name="show_carrier_keyguard">Lock screen only</string>
+    <string name="show_carrier_status_bar">Status bar only</string>
+    <string name="show_carrier_enabled">Lock screen and status bar</string>
+
 </resources>

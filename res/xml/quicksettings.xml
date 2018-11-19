@@ -30,14 +30,14 @@
         android:summaryOff="@string/qs_brightness_slider_position_summary_off"
         android:defaultValue="false"
         android:dependency="qs_show_brightness" />
-<!--
-    <com.citrus.settings.preference.SystemSettingSwitchPreference
-        android:key="qs_show_brightness_icon"
+
+    <com.citrus.settings.preference.SecureSettingSwitchPreference
+        android:key="qs_show_auto_brightness"
         android:title="@string/brightness_icon_title"
         android:summary="@string/brightness_icon_summary"
-        android:defaultValue="false"
+        android:defaultValue="true"
         android:dependency="qs_show_brightness"/>
--->
+
     <com.citrus.settings.preference.SystemSettingSwitchPreference
         android:key="qs_tile_title_visibility"
         android:title="@string/qs_tile_title_visibility_title"

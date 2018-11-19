@@ -104,7 +104,7 @@
 
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Playback control</string>
-    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks</string>
+    <string name="volume_button_music_control_summary">When the screen is off, long-pressing the volume keys will skip music tracks (Requires Volume wake option to be disabled)</string>
 
     <!-- Volume rocker wake -->
     <string name="volume_rocker_wake_title">Volume wake</string>

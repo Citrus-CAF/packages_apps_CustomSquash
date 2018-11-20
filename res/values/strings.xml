@@ -452,4 +452,15 @@
     <string name="status_bar_clock_show_am_pm_title">Show AM/PM</string>
     <string name="status_bar_clock_show_day_title">Show day of the week</string>
 
+    <!-- Network traffic -->
+    <string name="network_traffic_category_title">Network activity</string>
+    <string name="network_traffic_type_title">Indicator style</string>
+    <string name="network_traffic_type_summary">Choose the indicator style you prefer</string>
+    <string name="show_network_traffic_up">Uplink</string>
+    <string name="show_network_traffic_down">Downlink</string>
+    <string name="show_network_traffic_all">Uplink and Downlink</string>
+    <string name="network_traffic_state_title">Network activity indicator</string>
+    <string name="network_traffic_state_summary">Show network activity indicator on statusbar</string>
+    <string name="network_traffic_autohide_threshold_title">Autohide threshold (KB/s)</string>
+
 </resources>

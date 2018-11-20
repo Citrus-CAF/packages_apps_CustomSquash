@@ -18,6 +18,8 @@ package com.citrus.settings.fragments;
 
 import android.os.Bundle;
 
+import android.content.Context;
+
 //import android.support.v7.preference.PreferenceCategory;
 //import android.support.v7.preference.ListPreference;
 import android.support.v7.preference.Preference;

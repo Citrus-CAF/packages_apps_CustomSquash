@@ -463,4 +463,8 @@
     <string name="network_traffic_state_summary">Show network activity indicator on statusbar</string>
     <string name="network_traffic_autohide_threshold_title">Autohide threshold (KB/s)</string>
 
+    <!-- Show cpu overlay -->
+    <string name="show_cpu_title">Show CPU info</string>
+    <string name="show_cpu_summary">Screen overlay showing current CPU info</string>
+
 </resources>

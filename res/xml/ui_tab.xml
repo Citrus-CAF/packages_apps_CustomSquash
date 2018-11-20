@@ -31,6 +31,12 @@
         android:entryValues="@array/screen_off_animation_values"
         android:defaultValue="0" />
 
+    <com.citrus.settings.preference.GlobalSettingSwitchPreference
+        android:key="show_cpu_overlay"
+        android:title="@string/show_cpu_title"
+        android:summary="@string/show_cpu_summary"
+        android:defaultValue="false" />
+
 <!--
     <PreferenceCategory
       android:title="@string/recents_cat_title">

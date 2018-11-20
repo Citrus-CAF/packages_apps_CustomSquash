@@ -99,8 +99,12 @@
     <string name="weather_icon_pack_note">Note\u003a you can install new icon packs from play store by searching for \"Chronus icons\"</string>
 
     <!-- Quick Settings brightness icon -->
-    <string name="brightness_icon_title">Adaptive brightness icon</string>
-    <string name="brightness_icon_summary">Show adaptive brightness icon</string>
+    <string name="brightness_icon_title">Adaptive brightness button</string>
+    <string name="brightness_icon_summary">Show adaptive brightness button</string>
+
+    <!-- Quick Settings brightness  side buttons -->
+    <string name="brightness_side_buttons_title">Increase/decrease brightness buttons</string>
+    <string name="brightness_side_buttons_summary">Show buttons to increase or decrease the brightness</string>
 
     <!-- Volume rocker music control -->
     <string name="volume_button_music_control_title">Playback control</string>

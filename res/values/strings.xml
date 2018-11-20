@@ -22,9 +22,9 @@
     <!-- Tabs -->
     <string name="ui_title">Ui</string>
     <string name="buttons_title">Buttons</string>
-    <string name="statusbar_title">StatusBar</string>
-    <string name="misc_title">Misc</string>
-    <string name="lockscreen_title">Lock Screen</string>
+    <string name="statusbar_title">Statusbar</string>
+    <string name="misc_title">Misc.</string>
+    <string name="lockscreen_title">Lockscreen</string>
 
     <!-- Color Picker -->
     <string name="dialog_color_picker">Color Picker</string>
@@ -38,17 +38,17 @@
 
     <!-- Quick settings -->
     <string name="quicksettings_category">Quick settings</string>
-    <string name="quicksettings_summary">Configure QS layout</string>
-    <string name="qs_layout_category">QS tiles layout</string>
+    <string name="quicksettings_summary">Configure QS panel layout</string>
+    <string name="qs_layout_category">Tiles layout</string>
+    <string name="qs_brightness_category">Brightness slider layout</string>
     <!-- QS rows and columns -->
-    <string name="qs_rows_columns_title">QS rows and columns</string>
     <string name="qs_rows_portrait_title">Tiles rows on portrait</string>
     <string name="qs_rows_landscape_title">Tiles rows on landscape</string>
     <string name="qs_columns_portrait_title">Tiles columns on portrait</string>
     <string name="qs_columns_landscape_title">Tiles columns on landscape</string>
-    <string name="qs_tile_title_visibility_title">QS tile titles</string>
-    <string name="qs_tile_title_visibility_summary_on">QS tiles titles are now visible</string>
-    <string name="qs_tile_title_visibility_summary_off">QS tiles titles are now gone</string>
+    <string name="qs_tile_title_visibility_title">Tiles titles</string>
+    <string name="qs_tile_title_visibility_summary_on">Tiles titles are now visible</string>
+    <string name="qs_tile_title_visibility_summary_off">Tiles titles are now gone</string>
 
     <!-- General strings -->
     <string name="cancel">Cancel</string>
@@ -79,8 +79,8 @@
     <string name="media_art_summary">Enable media cover art on the lockscreen</string>
 
     <!--SysUI tuner options -->
-    <string name="status_bar_icon_blacklist_title">Status bar icons</string>
-    <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on status bar</string>
+    <string name="status_bar_icon_blacklist_title">Statusbar icons</string>
+    <string name="status_bar_icon_blacklist_summary">Configure what icons are shown on statusbar</string>
     <string name="lockscreen_shortcuts_title">Lockscreen shortcuts</string>
     <string name="lockscreen_shortcuts_summary">Lockscreen bottom shortcuts</string>
     <string name="vol_dnd_category_title">Do not disturb mode</string>
@@ -164,7 +164,7 @@
 
     <!-- Disable QS on secure Lockscreen -->
     <string name="lockscreen_qs_disabled_title">Secured quick settings</string>
-    <string name="lockscreen_qs_disabled_summary">Prevent expanding quick settings on secure lock screens</string>
+    <string name="lockscreen_qs_disabled_summary">Prevent expanding quick settings on secure lockscreens</string>
 
     <!-- Power menu on secure lockscreen -->
     <string name="lockscreen_power_menu_disabled_title">Secured power menu</string>
@@ -172,7 +172,7 @@
 
     <!-- Hide Lockscreen shortcuts on secure Lockscreen -->
     <string name="lockscreen_hide_shortcuts_title">Secured bottom Shortcuts</string>
-    <string name="lockscreen_hide_shortcuts_summary">Hide bottom shortcuts on secure lock screens</string>
+    <string name="lockscreen_hide_shortcuts_summary">Hide bottom shortcuts on secure lockscreens</string>
 
     <!-- d2ts on lockscreen -->
     <string name="double_tap_sleep_lockscreen">Double tap to sleep on lockscreen</string>
@@ -184,11 +184,11 @@
 
     <!-- D2ts on statusbar -->
     <string name="double_tap_sleep_gesture_title">Double tap to sleep</string>
-    <string name="double_tap_sleep_gesture_summary">Double tap on status bar to sleep</string>
+    <string name="double_tap_sleep_gesture_summary">Double tap on statusbar to sleep</string>
 
     <!-- Screen state service -->
     <string name="screen_state_toggles_summary">@null</string>
-    <string name="screen_state_toggles_title">Suspend Actions</string>
+    <string name="screen_state_toggles_title">Suspend actions</string>
     <string name="screen_state_toggles_enable_title">Enable</string>
     <string name="screen_state_toggles_enable_summary">Actions will be executed on screen off. On screen on the previous state will be restored.</string>
     <string name="screen_state_toggles_mobile_title">Mobile networks</string>
@@ -297,7 +297,7 @@
     <string name="expanded_desktop_category">Expanded Desktop</string>
     <string name="expanded_desktop_summary">Configure expanded desktop for apps</string>
     <string name="expanded_hide_nothing">Hide nothing</string>
-    <string name="expanded_hide_status">Hide status bar</string>
+    <string name="expanded_hide_status">Hide statusbar</string>
     <string name="expanded_hide_navigation">Hide navigation bar</string>
     <string name="expanded_hide_both">Hide both</string>
     <string name="expanded_nothing_to_show">To add a custom per-app configuration for expanded state, set "Enabled for all" to the off position</string>
@@ -318,7 +318,7 @@
     <string name="less_notification_sounds_2m">Every 2 minutes</string>
 
     <!-- QS footer warnings -->
-    <string name="qs_footer_warnings_title">QS footer warnings</string>
+    <string name="qs_footer_warnings_title">Footer warnings</string>
     <string name="qs_footer_warnings_summary">Display a warning at bottom of the QS panel while your network is monitored by external apps or a VPN</string>
 
     <!-- Custom summary text -->
@@ -327,7 +327,7 @@
     <string name="custom_summary_title">Custom dashboard summary</string>
     <string name="custom_summary_explain">Enter new summary text. Leave blank to revert to default.</string>
     <string name="custom_summary_randomize_title">Randomize summary</string>
-    <string name="custom_summary_randomize_explain">Pre-written summaries will be selected at random and will change everytime you start the Settings app.\nThis overrides any custom summary set.</string>
+    <string name="custom_summary_randomize_explain">Ranndom Pre-written summaries will be selected. This overrides any custom summary set.</string>
     <string name="custom_title_summary">Welcome to LemonLand!</string>
     <string name="sum1">#CozYolo</string>
     <string name="sum2">#MAKELEMONADE</string>
@@ -341,7 +341,7 @@
     <!-- Settings dashboard conditions and suggestions -->
     <string name="dashboard_conditions_title">Dashboard conditions</string>
     <string name="dashboard_conditions_summary">Enable/disable Conditions on Settings dashboard</string>
-    <string name="dashboard_suggestions_title">Dashboard Suggestions</string>
+    <string name="dashboard_suggestions_title">Dashboard suggestions</string>
     <string name="dashboard_suggestions_summary">Enable/disable Suggestions on Settings dashboard</string>
 
     <!-- Buttons -->
@@ -397,10 +397,10 @@
 
     <!-- Battery options -->
     <string name="battery_options_title">Battery options</string>
-    <string name="battery_options_summary">Customize the statusbar or QS tile battery</string>
+    <string name="battery_options_summary">Customize the statusbar battery</string>
     <!-- Battery styles -->
     <string name="battery_style_title">Battery icon style</string>
-    <string name="battery_style_summary">Change the style of the status bar battery</string>
+    <string name="battery_style_summary">Change the style of the statusbar battery</string>
     <string name="battery_style_port">Portrait</string>
     <string name="battery_style_circle">Circle</string>
     <string name="battery_style_dotted_circle">Dotted circle</string>
@@ -419,10 +419,10 @@
 
     <!-- QuickSettings brightness -->
     <string name="qs_brightness_slider_title">Show brightness slider</string>
-    <string name="qs_brightness_slider_summary">Set visibility of QS brightness slider</string>
+    <string name="qs_brightness_slider_summary">Set visibility of brightness slider</string>
     <string name="qs_brightness_slider_position_title">Brightness slider position</string>
-    <string name="qs_brightness_slider_position_summary_on">Show QS brightness slider at bottom</string>
-    <string name="qs_brightness_slider_position_summary_off">Show QS brightness slider at top</string>
+    <string name="qs_brightness_slider_position_summary_on">Show brightness slider at bottom</string>
+    <string name="qs_brightness_slider_position_summary_off">Show brightness slider at top</string>
 
     <!-- Custom carrier label and position -->
     <string name="status_bar_carrier_label_category_title">Carrier label</string>
@@ -431,9 +431,9 @@
     <string name="custom_carrier_label_notset">Custom label not set</string>
     <string name="show_carrier_title">Show carrier label</string>
     <string name="show_carrier_disabled">Disabled</string>
-    <string name="show_carrier_keyguard">Lock screen only</string>
-    <string name="show_carrier_status_bar">Status bar only</string>
-    <string name="show_carrier_enabled">Lock screen and status bar</string>
+    <string name="show_carrier_keyguard">Lockscreen only</string>
+    <string name="show_carrier_status_bar">Statusbar only</string>
+    <string name="show_carrier_enabled">Lockscreen and statusbar</string>
 
     <!-- Clock options -->
     <string name="clock_options_title">Clock options</string>

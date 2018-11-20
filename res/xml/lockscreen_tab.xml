@@ -27,7 +27,7 @@
                 android:targetClass="com.android.systemui.tuner.LockscreenTunerActivity" />
     </Preference>
 -->
-    <PreferenceScreen
+    <Preference
         android:key="lock_screen_items"
         android:title="@string/lockscreen_items_title"
         android:summary="@string/lockscreen_items_summary"
@@ -92,6 +92,5 @@
             android:defaultValue="false" />
 
     </PreferenceCategory>
-
 
 </PreferenceScreen>

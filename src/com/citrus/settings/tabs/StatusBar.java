@@ -55,10 +55,13 @@ public class StatusBar extends SettingsPreferenceFragment implements
         Preference.OnPreferenceChangeListener, Indexable {
 
     private static final String CUSTOM_CARRIER_LABEL = "custom_carrier_label";
+    private static final String NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD = "network_traffic_autohide_threshold";
 
     private Preference mCustomCarrierLabel;
 
     private String mCustomCarrierLabelText;
+
+    private CustomSeekBarPreference mThreshold;
 
     private ListPreference mCustomLogoStyle;
     private ListPreference mCustomLogoPos;
@@ -90,6 +93,13 @@ public class StatusBar extends SettingsPreferenceFragment implements
         // custom carrier label
         mCustomCarrierLabel = (Preference) findPreference(CUSTOM_CARRIER_LABEL);
         updateCustomLabelTextSummary();
+
+        mThreshold = (CustomSeekBarPreference) findPreference(NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD);
+        int value = Settings.System.getIntForUser(resolver,
+                Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, 1, UserHandle.USER_CURRENT);
+        mThreshold = (CustomSeekBarPreference) findPreference("network_traffic_autohide_threshold");
+        mThreshold.setValue(value);
+        mThreshold.setOnPreferenceChangeListener(this);
     }
 
     @Override
@@ -109,7 +119,13 @@ public class StatusBar extends SettingsPreferenceFragment implements
 
     public boolean onPreferenceChange(Preference preference, Object objValue) {
         ContentResolver resolver = getActivity().getContentResolver();
-/*        if (preference == mCustomLogoStyle) {
+        if (preference == mThreshold) {
+            int val = (Integer) objValue;
+            Settings.System.putIntForUser(getContentResolver(),
+                    Settings.System.NETWORK_TRAFFIC_AUTOHIDE_THRESHOLD, val,
+                    UserHandle.USER_CURRENT);
+            return true;
+/*      } else if (preference == mCustomLogoStyle) {
             int val = Integer.valueOf((String) objValue);
             Settings.System.putIntForUser(getContentResolver(),
 		            Settings.System.STATUS_BAR_CUSTOM_LOGO_STYLE, val,
@@ -124,8 +140,8 @@ public class StatusBar extends SettingsPreferenceFragment implements
                     UserHandle.USER_CURRENT);
             int index = mCustomLogoPos.findIndexOfValue((String) objValue);
             mCustomLogoPos.setSummary(mCustomLogoPos.getEntries()[index]);
-            return true;
-        }*/
+            return true;*/
+        }
         return false;
     }
 

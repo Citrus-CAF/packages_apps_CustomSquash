@@ -120,7 +120,7 @@
         <com.citrus.settings.preference.SystemSettingListPreference
             android:key="network_traffic_type"
             android:title="@string/network_traffic_type_title"
-            android:summary="@string/network_traffic_state_summary"
+            android:summary="%s"
             android:entries="@array/show_network_traffic_type_entries"
             android:entryValues="@array/show_network_traffic_type_values"
             android:defaultValue="0"

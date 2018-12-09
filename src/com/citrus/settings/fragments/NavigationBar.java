@@ -43,6 +43,8 @@ import com.android.settings.search.Indexable;
 import com.android.settings.SettingsPreferenceFragment;
 import com.android.settings.Utils;
 
+import com.citrus.settings.preference.SecureSettingSwitchPreference;
+
 import java.util.Arrays;
 import java.util.List;
 
@@ -61,6 +63,7 @@ public class NavigationBar extends SettingsPreferenceFragment implements
     private static final String KEY_BUTTON_ANBI            = "button_anbi";
     private static final String KEY_BUTTON_BRIGHTNESS      = "button_brightness";
     private static final String KEY_SWAP_NAVIGATION_KEYS   = "swap_navigation_keys";
+    private static final String KEY_SWAP_SW_NAVIGATION_KEYS   = "sysui_nav_bar_inverse";
 
     private static final String KEY_HOME_LONG_PRESS        = "home_key_long_press";
     private static final String KEY_HOME_DOUBLE_TAP        = "home_key_double_tap";
@@ -106,6 +109,8 @@ public class NavigationBar extends SettingsPreferenceFragment implements
     private SwitchPreference mSwapNavigationkeys;
     private SwitchPreference mButtonBrightness;
 
+    private SecureSettingSwitchPreference mSwapSwNavigationkeys;
+
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -143,6 +148,9 @@ public class NavigationBar extends SettingsPreferenceFragment implements
         if (mSwapNavigationkeys != null) {
             mSwapNavigationkeys.setOnPreferenceChangeListener(this);
         }
+
+        /* Swap Navigation Keys */
+        mSwapSwNavigationkeys = (SecureSettingSwitchPreference) findPreference(KEY_SWAP_SW_NAVIGATION_KEYS);
 
         /* Button Brightness */
         mButtonBrightness = (SwitchPreference) findPreference(KEY_BUTTON_BRIGHTNESS);
@@ -404,8 +412,13 @@ public class NavigationBar extends SettingsPreferenceFragment implements
         if (mSwapNavigationkeys != null) {
             mSwapNavigationkeys.setChecked(swapNavigationkeysEnabled);
             // Disable when navigation bar is disabled and no hw back and recents available.
-            mSwapNavigationkeys.setEnabled(navigationBarEnabled
+            mSwapNavigationkeys.setEnabled(!navigationBarEnabled
                     || hasBack && hasAppSwitch);
+        }
+
+        if (mSwapSwNavigationkeys != null) {
+            // Disable when navigation bar is disabled and no hw back and recents available.
+            mSwapSwNavigationkeys.setEnabled(navigationBarEnabled);
         }
 
         if (mButtonBrightness != null) {

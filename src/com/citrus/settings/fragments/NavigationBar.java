@@ -135,12 +135,7 @@ public class NavigationBar extends SettingsPreferenceFragment implements
         /* ANBI */
         mAnbiPreference = (SwitchPreference) findPreference(KEY_BUTTON_ANBI);
         if (mAnbiPreference != null) {
-            if (mDeviceHardwareKeys != 0) {
-                mAnbiPreference.setOnPreferenceChangeListener(this);
-            } else {
-                mAnbiPreference = null;
-                removePreference(KEY_BUTTON_ANBI);
-            }
+            mAnbiPreference.setOnPreferenceChangeListener(this);
         }
 
         /* Swap Navigation Keys */
@@ -465,6 +460,11 @@ public class NavigationBar extends SettingsPreferenceFragment implements
 
         if (!hasCamera && cameraCategory != null) {
             prefScreen.removePreference(cameraCategory);
+        }
+
+        if (!hasBack && !hasAppSwitch) {
+            prefScreen.removePreference(mSwapNavigationkeys);
+            prefScreen.removePreference(mAnbiPreference);
         }
     }
 

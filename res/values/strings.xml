@@ -351,8 +351,10 @@
     <!-- Buttons -->
     <string name="enable_navigation_bar_title">On-screen navigation bar</string>
     <string name="enable_navigation_bar_summary">Enable on-screen navigation bar</string>
-    <string name="swap_navigation_keys_title">Swap buttons</string>
-    <string name="swap_navigation_keys_summary">Swap back and recents buttons</string>
+    <string name="swap_hw_navigation_keys_title">Swap HW buttons</string>
+    <string name="swap_hw_navigation_keys_summary">Swap back and recents hardware navigation buttons</string>
+    <string name="swap_sw_navigation_keys_title">Swap SW buttons</string>
+    <string name="swap_sw_navigation_keys_summary">Swap back and recents software navigation buttons</string>
     <string name="hardware_brightness_keys_title">Backlight</string>
     <string name="hardware_brightness_keys_summary">Turn on capacitive keys backlight</string>
     <string name="home_key_title">Home button</string>

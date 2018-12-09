@@ -34,9 +34,15 @@
 
     <SwitchPreference
         android:key="swap_navigation_keys"
-        android:title="@string/swap_navigation_keys_title"
-        android:summary="@string/swap_navigation_keys_summary"
+        android:title="@string/swap_hw_navigation_keys_title"
+        android:summary="@string/swap_hw_navigation_keys_summary"
         android:persistent="false" />
+
+    <com.citrus.settings.preference.SecureSettingSwitchPreference
+        android:key="sysui_nav_bar_inverse"
+        android:title="@string/swap_sw_navigation_keys_title"
+        android:summary="@string/swap_sw_navigation_keys_summary"
+        android:defaultValue="false" />
 
     <SwitchPreference
         android:key="button_brightness"

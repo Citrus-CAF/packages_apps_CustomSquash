@@ -385,11 +385,11 @@ public class NavigationBar extends SettingsPreferenceFragment implements
         final boolean navigationBarEnabled = Settings.System.getIntForUser(resolver,
                 Settings.System.NAVIGATION_BAR_ENABLED, showNavigationBar ? 1 : 0, UserHandle.USER_CURRENT) != 0;
 
-        final boolean hasHome = (mDeviceHardwareKeys & KEY_MASK_HOME) != 0 || navigationBarEnabled;
+        final boolean hasHome = (mDeviceHardwareKeys & KEY_MASK_HOME) != 0;
         final boolean hasMenu = (mDeviceHardwareKeys & KEY_MASK_MENU) != 0;
-        final boolean hasBack = (mDeviceHardwareKeys & KEY_MASK_BACK) != 0 || navigationBarEnabled;
+        final boolean hasBack = (mDeviceHardwareKeys & KEY_MASK_BACK) != 0;
         final boolean hasAssist = (mDeviceHardwareKeys & KEY_MASK_ASSIST) != 0;
-        final boolean hasAppSwitch = (mDeviceHardwareKeys & KEY_MASK_APP_SWITCH) != 0 || navigationBarEnabled;
+        final boolean hasAppSwitch = (mDeviceHardwareKeys & KEY_MASK_APP_SWITCH) != 0;
         final boolean hasCamera = (mDeviceHardwareKeys & KEY_MASK_CAMERA) != 0;
 
         final boolean anbiEnabled = Settings.System.getIntForUser(resolver,
@@ -407,17 +407,17 @@ public class NavigationBar extends SettingsPreferenceFragment implements
 
         if (mAnbiPreference != null) {
             mAnbiPreference.setChecked(anbiEnabled);
+            mAnbiPreference.setEnabled(!navigationBarEnabled);
         }
 
         if (mSwapNavigationkeys != null) {
             mSwapNavigationkeys.setChecked(swapNavigationkeysEnabled);
             // Disable when navigation bar is disabled and no hw back and recents available.
-            mSwapNavigationkeys.setEnabled(!navigationBarEnabled
-                    || hasBack && hasAppSwitch);
+            mSwapNavigationkeys.setEnabled(!navigationBarEnabled);
         }
 
         if (mSwapSwNavigationkeys != null) {
-            // Disable when navigation bar is disabled and no hw back and recents available.
+            // Disable when navigation bar is disabled and no sw back and recents available.
             mSwapSwNavigationkeys.setEnabled(navigationBarEnabled);
         }
 
@@ -475,8 +475,11 @@ public class NavigationBar extends SettingsPreferenceFragment implements
             prefScreen.removePreference(cameraCategory);
         }
 
-        if (!hasBack && !hasAppSwitch) {
+        if (mDeviceHardwareKeys == 0 || !hasBack && !hasAppSwitch) {
             prefScreen.removePreference(mSwapNavigationkeys);
+        }
+
+        if (mDeviceHardwareKeys == 0) {
             prefScreen.removePreference(mAnbiPreference);
         }
     }
